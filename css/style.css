@@ -11,6 +11,7 @@ margin: 0 auto;
     margin: 0 auto;
     position: relative;
     text-align: center;
+    z-index: 1;
 
 }
 
@@ -50,6 +51,8 @@ width: 100vw;
     height: 640px;
     background-image: url(../img/firstPanel.png);
     background-size: cover;
+    z-index: 1;
+    position: relative;
 
 }
 
@@ -58,6 +61,24 @@ width: 100vw;
     height: 598px;
     background-image: url(../img/concretePanel.png);
     background-size: cover;
+    z-index: 1;
+    position: relative;
+    
+    
+
+}
+
+.titleContainer {
+width: 100vw;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    top: 20px;
 
 }
 #secondPanel {
@@ -65,12 +86,18 @@ width: 100vw;
     height: 640px;
     background-image: url(../img/secondPanel.png);
     background-size: cover;
+    z-index: 1;
 
 }
 
 a {
 text-decoration: none;
     color: white;
+
+}
+
+a:hover {
+font-weight: 400;
 
 }
 
@@ -104,5 +131,114 @@ width: 50px;
 
 }
 
+.servicesText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 100px;
+    float: left;
+
+}
+
+h1 {
+font-size: 35px;
+
+}
+p {
+
+font-size: 25px;
+}
+
+.hoursText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 100px;
+    float: left;
+
+}
+
+.videoContainer, iframe {
+width: 100vw;
+  height: 800px;
+  
+    
+
+
+}
+
+.barberOne {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberOne.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    left: 100px;
+    
+
+}
+
+.barberOneBlur {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 64px;
+    left: 100px;
+    
+
+}
+.barberOneBlur:hover {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    background-image: url(../img/barberOneBlur.png);
+    background-size: cover;
+    top: 64px;
+    left: 100px;
+
+    
+
+}
+
+
+.barberTwo {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberTwo.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 100px;
+    
+
+}
+
+.barberTwoBlur {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 64px;
+    right: 100px;
+    
+
+}
+.barberTwoBlur:hover {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberTwoBlur.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 100px;
+    
+
+}
 
 
