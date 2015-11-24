@@ -1,0 +1,108 @@
+html, body {
+margin: 0 auto;
+
+}
+
+#topBanner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBanner.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+}
+
+ul {
+list-style-type: none;
+margin: auto;
+    padding-top: 30px;
+    
+}
+
+li {
+display: inline;
+    margin: 40px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.logo {
+width: 550px;
+    height: 300px;
+    background-image: url(../img/logoWhite.png);
+    background-size: cover;
+    position: absolute;
+    left: 365px;
+    top: 175px;
+
+
+
+}
+
+#firstPanel {
+width: 100vw;
+    height: 640px;
+    background-image: url(../img/firstPanel.png);
+    background-size: cover;
+
+}
+
+#concretePanel {
+width: 100vw;
+    height: 598px;
+    background-image: url(../img/concretePanel.png);
+    background-size: cover;
+
+}
+#secondPanel {
+width: 100vw;
+    height: 640px;
+    background-image: url(../img/secondPanel.png);
+    background-size: cover;
+
+}
+
+a {
+text-decoration: none;
+    color: white;
+
+}
+
+.arrow {
+width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowIcon.png);
+    background-size: cover;
+    position: absolute;
+    left: 615px;
+    top: 620px;
+
+}
+
+#footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #252525;
+    position: relative;
+
+}
+
+.arrowUp {
+width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowUp.png);
+    background-size: cover;
+    position: absolute;
+    left: 615px;
+    top: 50px;
+
+}
+
+
+
