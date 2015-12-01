@@ -1,0 +1,791 @@
+html, body {
+margin: 0 auto;
+
+}
+
+#topBanner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBanner.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+
+}
+
+ul {
+list-style-type: none;
+margin: auto;
+    padding-top: 30px;
+    
+}
+
+li {
+display: inline;
+    margin: 40px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.logo {
+width: 550px;
+    height: 300px;
+    background-image: url(../img/logoWhite.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -275px;
+
+
+
+}
+
+#firstPanel {
+width: 100vw;
+    height: 640px;
+    background-image: url(../img/firstPanel.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+
+}
+
+.bookContainer {
+    width: 100vw;
+    height: 250px;
+    background-color: #252525;
+    position: relative;
+    text-align: center;
+
+
+}
+
+.bookNow {
+width: 300px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 2px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -150px;
+
+}
+.bookNow:hover {
+width: 300px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 3px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -150px;
+    cursor: pointer;
+
+}
+
+#concretePanel {
+width: 100vw;
+    height: 598px;
+    background-image: url(../img/concretePanel.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    
+    
+
+}
+
+.titleContainer {
+width: 100vw;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    top: 20px;
+
+}
+#secondPanel {
+width: 100vw;
+    height: 640px;
+    background-image: url(../img/secondPanel.png);
+    background-size: cover;
+    z-index: 1;
+
+}
+
+a {
+text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+font-weight: 400;
+
+}
+
+.arrow {
+width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowIcon.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 300px 0 0 -25px;
+
+}
+
+#footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #252525;
+    position: relative;
+
+}
+
+.arrowUp {
+width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowUp.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+
+}
+
+.servicesText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -820px;
+
+}
+
+.contactText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -820px;
+
+}
+
+.address {
+text-align: left;
+position: absolute;
+    left: 150px;
+}
+
+h1 {
+font-size: 35px;
+
+}
+p {
+
+font-size: 25px;
+}
+
+.hoursText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 200px;
+
+}
+
+.socialText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 200px;
+
+}
+
+
+
+.icon {
+width: 80px;
+    height: 80px;
+    margin: 40px;
+}
+
+.icon:hover {
+width: 81px;
+    height: 81px;
+    margin: 39px;
+    cursor: pointer;
+}
+
+
+.fb {
+background-image: url(../img/1448937575_facebook_online_social_media.png);
+    background-size: cover;
+    float: left;
+
+
+}
+
+.twitter {
+background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    float: left;
+
+
+}
+
+.ig {
+background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+
+float: left;
+}
+
+.youTube {
+background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
+    background-size: cover;
+
+float: left;
+}
+
+
+
+.videoContainer, iframe {
+width: 100vw;
+  height: 800px;
+  
+    
+
+
+}
+
+.barberOne {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberOne.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    left: 300px;
+    
+
+}
+
+.barberOneBlur {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 64px;
+    left: 300px;
+    
+
+}
+.barberOneBlur:hover {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    background-image: url(../img/barberOneBlur.png);
+    background-size: cover;
+    top: 64px;
+    left: 300px;
+
+    
+
+}
+
+
+.barberTwo {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberTwo.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 300px;
+    
+
+}
+
+.barberTwoBlur {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 64px;
+    right: 300px;
+    
+
+}
+.barberTwoBlur:hover {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberTwoBlur.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 300px;
+    
+
+}
+
+#instagram {
+width: 100vw;
+    height: 300px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*1280 X 800*/
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+#topBanner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBanner.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+
+}
+
+ul {
+list-style-type: none;
+margin: auto;
+    padding-top: 30px;
+    
+}
+
+li {
+display: inline;
+    margin: 40px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+
+}
+
+.logo {
+width: 550px;
+    height: 300px;
+    background-image: url(../img/logoWhite.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -275px;
+
+
+
+}
+
+#firstPanel {
+width: 100vw;
+    height: 640px;
+    background-image: url(../img/firstPanel.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+
+}
+
+.bookContainer {
+    width: 100vw;
+    height: 250px;
+    background-color: #252525;
+    position: relative;
+    text-align: center;
+
+
+}
+
+.bookNow {
+width: 300px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 2px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -150px;
+
+}
+.bookNow:hover {
+width: 300px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 3px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -150px;
+    cursor: pointer;
+
+}
+
+#concretePanel {
+width: 100vw;
+    height: 598px;
+    background-image: url(../img/concretePanel.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    
+    
+
+}
+
+.titleContainer {
+width: 100vw;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    top: 20px;
+
+}
+#secondPanel {
+width: 100vw;
+    height: 640px;
+    background-image: url(../img/secondPanel.png);
+    background-size: cover;
+    z-index: 1;
+
+}
+
+a {
+text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+font-weight: 400;
+
+}
+
+.arrow {
+width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowIcon.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 200px 0 0 -25px;
+
+}
+
+#footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #252525;
+    position: relative;
+
+}
+
+.arrowUp {
+width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowUp.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+
+}
+
+.servicesText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -650px;
+
+}
+
+.contactText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -650px;
+
+}
+
+.address {
+text-align: left;
+position: absolute;
+    left: 150px;
+}
+
+h1 {
+font-size: 35px;
+
+}
+p {
+
+font-size: 25px;
+}
+
+.hoursText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 30px;
+
+}
+
+.socialText {
+width: 640px;
+    height: 640px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 30px;
+
+}
+    
+    .icon {
+width: 60px;
+    height: 60px;
+    margin: 45px;
+}
+
+.icon:hover {
+width: 61px;
+    height: 61px;
+    margin: 45px;
+    cursor: pointer;
+}
+
+
+.fb {
+background-image: url(../img/1448937575_facebook_online_social_media.png);
+    background-size: cover;
+    float: left;
+
+
+}
+
+.twitter {
+background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    float: left;
+
+
+}
+
+.ig {
+background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+
+float: left;
+}
+
+.youTube {
+background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
+    background-size: cover;
+
+float: left;
+}
+
+.videoContainer, iframe {
+width: 100vw;
+  height: 800px;
+  
+    
+
+
+}
+
+.barberOne {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberOne.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    left: 100px;
+    
+
+}
+
+.barberOneBlur {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 64px;
+    left: 100px;
+    
+
+}
+.barberOneBlur:hover {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    background-image: url(../img/barberOneBlur.png);
+    background-size: cover;
+    top: 64px;
+    left: 100px;
+
+    
+
+}
+
+
+.barberTwo {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberTwo.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 100px;
+    
+
+}
+
+.barberTwoBlur {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 64px;
+    right: 100px;
+    
+
+}
+.barberTwoBlur:hover {
+    width: 450px;
+    height: 450px;
+    background-image: url(../img/barberTwoBlur.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 100px;
+    
+
+}
+    
+    #instagram {
+width: 100vw;
+    height: 300px;
+        overflow: hidden;
+
+
+}
+    
+    
+}
+
+
