@@ -12,4 +12,4 @@ var apptSchema = new mongoose.Schema({
 });//BLOG SCHEMA END
 
 
-module.exports = mongoose.model('Service', blogSchema);
+module.exports = mongoose.model('Service', apptSchema);
