@@ -1,9 +1,10 @@
-html, body {
-margin: 0 auto;
-
+html,
+body {
+  margin: 0 auto;
 }
 
-#topBanner {
+@media screen and (min-width: 1280px) {
+  #topBanner {
     width: 100vw;
     height: 100vh;
     background-image: url(../img/topBanner.png);
@@ -12,29 +13,23 @@ margin: 0 auto;
     position: relative;
     text-align: center;
     z-index: 1;
-
-}
-
-ul {
-list-style-type: none;
-margin: auto;
+  }
+  ul {
+    list-style-type: none;
+    margin: auto;
     padding-top: 30px;
-    
-}
-
-li {
-display: inline;
+  }
+  li {
+    display: inline;
     margin: 40px;
     color: white;
     font-family: Oswald, sans-serif;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     font-size: 20px;
-
-}
-
-.logo {
-width: 550px;
+  }
+  .logo {
+    width: 550px;
     height: 300px;
     background-image: url(../img/logoWhite.png);
     background-size: cover;
@@ -42,33 +37,24 @@ width: 550px;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -275px;
-
-
-
-}
-
-#firstPanel {
-width: 100vw;
+  }
+  #firstPanel {
+    width: 100vw;
     height: 640px;
     background-image: url(../img/firstPanel.png);
     background-size: cover;
     z-index: 1;
     position: relative;
-
-}
-
-.bookContainer {
+  }
+  .bookContainer {
     width: 100vw;
     height: 250px;
     background-color: #252525;
     position: relative;
     text-align: center;
-
-
-}
-
-.bookNow {
-width: 300px;
+  }
+  .bookNow {
+    width: 400px;
     height: 65px;
     color: white;
     font-family: Oswald, sans-serif;
@@ -78,11 +64,10 @@ width: 300px;
     position: relative;
     top: 50%;
     left: 50%;
-    margin: -75px 0 0 -150px;
-
-}
-.bookNow:hover {
-width: 300px;
+    margin: -75px 0 0 -200px;
+  }
+  .bookNow:hover {
+    width: 400px;
     height: 65px;
     color: white;
     font-family: Oswald, sans-serif;
@@ -92,25 +77,19 @@ width: 300px;
     position: relative;
     top: 50%;
     left: 50%;
-    margin: -75px 0 0 -150px;
+    margin: -75px 0 0 -200px;
     cursor: pointer;
-
-}
-
-#concretePanel {
-width: 100vw;
+  }
+  #concretePanel {
+    width: 100vw;
     height: 598px;
     background-image: url(../img/concretePanel.png);
     background-size: cover;
     z-index: 1;
     position: relative;
-    
-    
-
-}
-
-.titleContainer {
-width: 100vw;
+  }
+  .titleContainer {
+    width: 100vw;
     height: 100px;
     text-align: center;
     color: white;
@@ -120,30 +99,23 @@ width: 100vw;
     float: left;
     z-index: 2;
     top: 20px;
-
-}
-#secondPanel {
-width: 100vw;
+  }
+  #secondPanel {
+    width: 100vw;
     height: 640px;
     background-image: url(../img/secondPanel.png);
     background-size: cover;
     z-index: 1;
-
-}
-
-a {
-text-decoration: none;
+  }
+  a {
+    text-decoration: none;
     color: white;
-
-}
-
-a:hover {
-font-weight: 400;
-
-}
-
-.arrow {
-width: 50px;
+  }
+  a:hover {
+    font-weight: 400;
+  }
+  .arrow {
+    width: 50px;
     height: 50px;
     background-image: url(../img/arrowIcon.png);
     background-size: cover;
@@ -151,19 +123,24 @@ width: 50px;
     top: 50%;
     left: 50%;
     margin: 300px 0 0 -25px;
-
-}
-
-#footer {
+  }
+  #footer {
     width: 100vw;
     height: 150px;
     background-color: #252525;
     position: relative;
-
-}
-
-.arrowUp {
-width: 50px;
+  }
+    .adminLoginLink {
+    font-family: Oswald, sans-serif;
+        position: absolute;
+        line-height: 150px;
+        right: 100px;
+    
+    
+    }
+    
+  .arrowUp {
+    width: 50px;
     height: 50px;
     background-image: url(../img/arrowUp.png);
     background-size: cover;
@@ -171,56 +148,46 @@ width: 50px;
     top: 50%;
     left: 50%;
     margin: -25px 0 0 -25px;
-
-}
-
-.servicesText {
-width: 640px;
+  }
+  .servicesText {
+    width: 640px;
     height: 640px;
     text-align: center;
     color: white;
     font-family: Oswald, sans-serif;
     -webkit-font-smoothing: antialiased;
-position: relative;
+    position: relative;
     float: left;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -820px;
-
-}
-
-.contactText {
-width: 640px;
+  }
+  .contactText {
+    width: 640px;
     height: 640px;
     text-align: center;
     color: #252525;
     font-family: Oswald, sans-serif;
     -webkit-font-smoothing: antialiased;
-position: relative;
+    position: relative;
     float: left;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -820px;
-
-}
-
-.address {
-text-align: left;
-position: absolute;
+  }
+  .address {
+    text-align: left;
+    position: absolute;
     left: 150px;
-}
-
-h1 {
-font-size: 35px;
-
-}
-p {
-
-font-size: 25px;
-}
-
-.hoursText {
-width: 640px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .hoursText {
+    width: 640px;
     height: 640px;
     text-align: center;
     color: #252525;
@@ -231,11 +198,9 @@ width: 640px;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 200px;
-
-}
-
-.socialText {
-width: 640px;
+  }
+  .socialText {
+    width: 640px;
     height: 640px;
     text-align: center;
     color: white;
@@ -246,67 +211,44 @@ width: 640px;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 200px;
-
-}
-
-
-
-.icon {
-width: 80px;
+  }
+  .icon {
+    width: 80px;
     height: 80px;
     margin: 40px;
-}
-
-.icon:hover {
-width: 81px;
+  }
+  .icon:hover {
+    width: 81px;
     height: 81px;
     margin: 39px;
     cursor: pointer;
-}
-
-
-.fb {
-background-image: url(../img/1448937575_facebook_online_social_media.png);
+  }
+  .fb {
+    background-image: url(../img/1448937575_facebook_online_social_media.png);
     background-size: cover;
     float: left;
-
-
-}
-
-.twitter {
-background-image: url(../img/1448937612_twitter_online_social_media.png);
+  }
+  .twitter {
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
     background-size: cover;
     float: left;
-
-
-}
-
-.ig {
-background-image: url(../img/1448937604_instagram_online_social_media.png);
+  }
+  .ig {
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
     background-size: cover;
-
-float: left;
-}
-
-.youTube {
-background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
+    float: left;
+  }
+  .youTube {
+    background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
     background-size: cover;
-
-float: left;
-}
-
-
-
-.videoContainer, iframe {
-width: 100vw;
-  height: 800px;
-  
-    
-
-
-}
-
-.barberOne {
+    float: left;
+  }
+  .videoContainer,
+  iframe {
+    width: 100vw;
+    height: 800px;
+  }
+  .barberOne {
     width: 450px;
     height: 450px;
     background-image: url(../img/barberOne.png);
@@ -314,20 +256,15 @@ width: 100vw;
     position: absolute;
     top: 64px;
     left: 300px;
-    
-
-}
-
-.barberOneBlur {
+  }
+  .barberOneBlur {
     width: 450px;
     height: 450px;
     position: absolute;
     top: 64px;
     left: 300px;
-    
-
-}
-.barberOneBlur:hover {
+  }
+  .barberOneBlur:hover {
     width: 450px;
     height: 450px;
     position: absolute;
@@ -335,13 +272,8 @@ width: 100vw;
     background-size: cover;
     top: 64px;
     left: 300px;
-
-    
-
-}
-
-
-.barberTwo {
+  }
+  .barberTwo {
     width: 450px;
     height: 450px;
     background-image: url(../img/barberTwo.png);
@@ -349,20 +281,15 @@ width: 100vw;
     position: absolute;
     top: 64px;
     right: 300px;
-    
-
-}
-
-.barberTwoBlur {
+  }
+  .barberTwoBlur {
     width: 450px;
     height: 450px;
     position: absolute;
     top: 64px;
     right: 300px;
-    
-
-}
-.barberTwoBlur:hover {
+  }
+  .barberTwoBlur:hover {
     width: 450px;
     height: 450px;
     background-image: url(../img/barberTwoBlur.png);
@@ -370,47 +297,48 @@ width: 100vw;
     position: absolute;
     top: 64px;
     right: 300px;
-    
-
-}
-
-#instagram {
-width: 100vw;
+  }
+  #instagram {
+    width: 100vw;
     height: 300px;
-
-
+  }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   /*
+___________________________$$______________
+ _________________________$$$$_____________
+ _______________________$$$$$$_____________
+ ______________________$$$$$$______________
+ ______________________$$$$________________
+ ______________________$$__________________
+ _________$$$$$$$$$$$$$_$$$$$$$$$$$$$______
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_
+ _____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ________$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_____
+ __________$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ ____________$$$$$$$$$$$$$$$$$$$$$_________
+ ______________$$$$$$$$__$$$$$$$___________
+*/
 
 
 
 
 /*1280 X 800*/
 
-
-
-
 @media screen and (max-width: 1280px) {
-
-#topBanner {
+  #topBanner {
     width: 100vw;
     height: 100vh;
     background-image: url(../img/topBanner.png);
@@ -419,29 +347,23 @@ width: 100vw;
     position: relative;
     text-align: center;
     z-index: 1;
-
-}
-
-ul {
-list-style-type: none;
-margin: auto;
+  }
+  ul {
+    list-style-type: none;
+    margin: auto;
     padding-top: 30px;
-    
-}
-
-li {
-display: inline;
+  }
+  li {
+    display: inline;
     margin: 40px;
     color: white;
     font-family: Oswald, sans-serif;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     font-size: 20px;
-
-}
-
-.logo {
-width: 550px;
+  }
+  .logo {
+    width: 550px;
     height: 300px;
     background-image: url(../img/logoWhite.png);
     background-size: cover;
@@ -449,33 +371,24 @@ width: 550px;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -275px;
-
-
-
-}
-
-#firstPanel {
-width: 100vw;
+  }
+  #firstPanel {
+    width: 100vw;
     height: 640px;
     background-image: url(../img/firstPanel.png);
     background-size: cover;
     z-index: 1;
     position: relative;
-
-}
-
-.bookContainer {
+  }
+  .bookContainer {
     width: 100vw;
     height: 250px;
     background-color: #252525;
     position: relative;
     text-align: center;
-
-
-}
-
-.bookNow {
-width: 300px;
+  }
+  .bookNow {
+    width: 400px;
     height: 65px;
     color: white;
     font-family: Oswald, sans-serif;
@@ -485,11 +398,10 @@ width: 300px;
     position: relative;
     top: 50%;
     left: 50%;
-    margin: -75px 0 0 -150px;
-
-}
-.bookNow:hover {
-width: 300px;
+    margin: -75px 0 0 -200px;
+  }
+  .bookNow:hover {
+    width: 400px;
     height: 65px;
     color: white;
     font-family: Oswald, sans-serif;
@@ -499,25 +411,19 @@ width: 300px;
     position: relative;
     top: 50%;
     left: 50%;
-    margin: -75px 0 0 -150px;
+    margin: -75px 0 0 -200px;
     cursor: pointer;
-
-}
-
-#concretePanel {
-width: 100vw;
+  }
+  #concretePanel {
+    width: 100vw;
     height: 598px;
     background-image: url(../img/concretePanel.png);
     background-size: cover;
     z-index: 1;
     position: relative;
-    
-    
-
-}
-
-.titleContainer {
-width: 100vw;
+  }
+  .titleContainer {
+    width: 100vw;
     height: 100px;
     text-align: center;
     color: white;
@@ -527,50 +433,48 @@ width: 100vw;
     float: left;
     z-index: 2;
     top: 20px;
-
-}
-#secondPanel {
-width: 100vw;
+  }
+  #secondPanel {
+    width: 100vw;
     height: 640px;
     background-image: url(../img/secondPanel.png);
     background-size: cover;
     z-index: 1;
-
-}
-
-a {
-text-decoration: none;
+  }
+  a {
+    text-decoration: none;
     color: white;
-
-}
-
-a:hover {
-font-weight: 400;
-
-}
-
-.arrow {
-width: 50px;
+  }
+  a:hover {
+    font-weight: 400;
+  }
+  .arrow {
+    width: 50px;
     height: 50px;
     background-image: url(../img/arrowIcon.png);
     background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: 200px 0 0 -25px;
-
-}
-
-#footer {
+    margin: 225px 0 0 -25px;
+  }
+  #footer {
     width: 100vw;
     height: 150px;
     background-color: #252525;
     position: relative;
-
-}
-
-.arrowUp {
-width: 50px;
+  }
+    
+     .adminLoginLink {
+    font-family: Oswald, sans-serif;
+        position: absolute;
+        line-height: 150px;
+        right: 100px;
+    
+    
+    }
+  .arrowUp {
+    width: 50px;
     height: 50px;
     background-image: url(../img/arrowUp.png);
     background-size: cover;
@@ -578,56 +482,46 @@ width: 50px;
     top: 50%;
     left: 50%;
     margin: -25px 0 0 -25px;
-
-}
-
-.servicesText {
-width: 640px;
+  }
+  .servicesText {
+    width: 640px;
     height: 640px;
     text-align: center;
     color: white;
     font-family: Oswald, sans-serif;
     -webkit-font-smoothing: antialiased;
-position: relative;
+    position: relative;
     float: left;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -650px;
-
-}
-
-.contactText {
-width: 640px;
+  }
+  .contactText {
+    width: 640px;
     height: 640px;
     text-align: center;
     color: #252525;
     font-family: Oswald, sans-serif;
     -webkit-font-smoothing: antialiased;
-position: relative;
+    position: relative;
     float: left;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -650px;
-
-}
-
-.address {
-text-align: left;
-position: absolute;
+  }
+  .address {
+    text-align: left;
+    position: absolute;
     left: 150px;
-}
-
-h1 {
-font-size: 35px;
-
-}
-p {
-
-font-size: 25px;
-}
-
-.hoursText {
-width: 640px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .hoursText {
+    width: 640px;
     height: 640px;
     text-align: center;
     color: #252525;
@@ -638,11 +532,9 @@ width: 640px;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 30px;
-
-}
-
-.socialText {
-width: 640px;
+  }
+  .socialText {
+    width: 640px;
     height: 640px;
     text-align: center;
     color: white;
@@ -653,63 +545,44 @@ width: 640px;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 30px;
-
-}
-    
-    .icon {
-width: 60px;
+  }
+  .icon {
+    width: 60px;
     height: 60px;
     margin: 45px;
-}
-
-.icon:hover {
-width: 61px;
+  }
+  .icon:hover {
+    width: 61px;
     height: 61px;
     margin: 45px;
     cursor: pointer;
-}
-
-
-.fb {
-background-image: url(../img/1448937575_facebook_online_social_media.png);
+  }
+  .fb {
+    background-image: url(../img/1448937575_facebook_online_social_media.png);
     background-size: cover;
     float: left;
-
-
-}
-
-.twitter {
-background-image: url(../img/1448937612_twitter_online_social_media.png);
+  }
+  .twitter {
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
     background-size: cover;
     float: left;
-
-
-}
-
-.ig {
-background-image: url(../img/1448937604_instagram_online_social_media.png);
+  }
+  .ig {
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
     background-size: cover;
-
-float: left;
-}
-
-.youTube {
-background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
+    float: left;
+  }
+  .youTube {
+    background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
     background-size: cover;
-
-float: left;
-}
-
-.videoContainer, iframe {
-width: 100vw;
-  height: 800px;
-  
-    
-
-
-}
-
-.barberOne {
+    float: left;
+  }
+  .videoContainer,
+  iframe {
+    width: 100vw;
+    height: 600px;
+  }
+  .barberOne {
     width: 450px;
     height: 450px;
     background-image: url(../img/barberOne.png);
@@ -717,20 +590,15 @@ width: 100vw;
     position: absolute;
     top: 64px;
     left: 100px;
-    
-
-}
-
-.barberOneBlur {
+  }
+  .barberOneBlur {
     width: 450px;
     height: 450px;
     position: absolute;
     top: 64px;
     left: 100px;
-    
-
-}
-.barberOneBlur:hover {
+  }
+  .barberOneBlur:hover {
     width: 450px;
     height: 450px;
     position: absolute;
@@ -738,13 +606,8 @@ width: 100vw;
     background-size: cover;
     top: 64px;
     left: 100px;
-
-    
-
-}
-
-
-.barberTwo {
+  }
+  .barberTwo {
     width: 450px;
     height: 450px;
     background-image: url(../img/barberTwo.png);
@@ -752,20 +615,15 @@ width: 100vw;
     position: absolute;
     top: 64px;
     right: 100px;
-    
-
-}
-
-.barberTwoBlur {
+  }
+  .barberTwoBlur {
     width: 450px;
     height: 450px;
     position: absolute;
     top: 64px;
     right: 100px;
-    
-
-}
-.barberTwoBlur:hover {
+  }
+  .barberTwoBlur:hover {
     width: 450px;
     height: 450px;
     background-image: url(../img/barberTwoBlur.png);
@@ -773,19 +631,698 @@ width: 100vw;
     position: absolute;
     top: 64px;
     right: 100px;
-    
-
-}
-    
-    #instagram {
-width: 100vw;
+  }
+  #instagram {
+    width: 100vw;
     height: 300px;
-        overflow: hidden;
+    overflow: hidden;
+    text-align: center;
+  }
+}
 
 
-}
+   /*
+___________________________$$______________
+ _________________________$$$$_____________
+ _______________________$$$$$$_____________
+ ______________________$$$$$$______________
+ ______________________$$$$________________
+ ______________________$$__________________
+ _________$$$$$$$$$$$$$_$$$$$$$$$$$$$______
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_
+ _____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ________$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_____
+ __________$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ ____________$$$$$$$$$$$$$$$$$$$$$_________
+ ______________$$$$$$$$__$$$$$$$___________
+*/
+
+
+
+
+
+
+/*IPHONE 6 PLUS PORTRAIT*/
+
+@media screen and (max-width: 415px) {
+  #topBanner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBannerMobile.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+  }
+  ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: absolute;
+    left: -10px;
+  }
+  li {
+    display: inline;
+    margin: 5px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 25px;
+  }
+  .logo {
+    width: 340px;
+    height: 200px;
+    background-image: url(../img/logoWhite.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -170px;
+  }
+  #firstPanel {
+    width: 100vw;
+    height: 828px;
+    background-image: url(../img/firstPanelMobile.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
+  .bookContainer {
+    width: 100vw;
+    height: 250px;
+    background-color: #252525;
+    position: relative;
+    text-align: center;
+  }
+  .bookNow {
+    width: 400px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 2px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -200px;
+  }
+  .bookNow:hover {
+    width: 400px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 3px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -200px;
+    cursor: pointer;
+  }
+  #concretePanel {
+    width: 100vw;
+    height: 828px;
+    background-image: url(../img/concretePanelMobile.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
+  .titleContainer {
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    top: 10px;
+  }
+  #secondPanel {
+    width: 100vw;
+    height: 828px;
+    background-image: url(../img/secondPanelMobile.png);
+    background-size: cover;
+    z-index: 1;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    font-weight: 400;
+  }
+  .arrow {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowIcon.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 250px 0 0 -25px;
+  }
+  #footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #252525;
+    position: relative;
+  }
+     .adminLoginLink {
+    font-family: Oswald, sans-serif;
+        position: absolute;
+        line-height: 150px;
+        right: 50px;
     
     
+    }
+  .arrowUp {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowUp.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+  .servicesText {
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -400px 0 0 -170px;
+  }
+  .contactText {
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -400px 0 0 -170px;
+  }
+  .address {
+    text-align: left;
+    position: absolute;
+    left: 0px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .hoursText {
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 20px 0 0 -170px;
+  }
+  .socialText {
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: 70px 0 0 -170px;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+  }
+  .icon:hover {
+    width: 51px;
+    height: 51px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .fb {
+    background-image: url(../img/1448937575_facebook_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .twitter {
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .ig {
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .youTube {
+    background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
+    background-size: cover;
+    float: left;
+  }
+  .videoContainer,
+  iframe {
+    width: 100vw;
+    height: 300px;
+  }
+  .barberOne {
+    width: 340px;
+    height: 340px;
+    background-image: url(../img/barberOne.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -170px;
+  }
+  .barberOneBlur {
+    width: 340px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -170px;
+  }
+  .barberOneBlur:hover {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    background-image: url(../img/barberOneBlur.png);
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -170px;
+  }
+  .barberTwo {
+    width: 340px;
+    height: 340px;
+    background-image: url(../img/barberTwo.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 30px 0 0 -170px;
+  }
+  .barberTwoBlur {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 30px 0 0 -170px;
+  }
+  .barberTwoBlur:hover {
+    width: 340px;
+    height: 340px;
+    background-image: url(../img/barberTwoBlur.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 30px 0 0 -170px;
+  }
+  #instagram {
+    width: 100vw;
+    height: 900px;
+    overflow: hidden;
+    text-align: center;
+  }
 }
+
+
+
+
+   /*
+___________________________$$______________
+ _________________________$$$$_____________
+ _______________________$$$$$$_____________
+ ______________________$$$$$$______________
+ ______________________$$$$________________
+ ______________________$$__________________
+ _________$$$$$$$$$$$$$_$$$$$$$$$$$$$______
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_
+ _____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ________$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_____
+ __________$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ ____________$$$$$$$$$$$$$$$$$$$$$_________
+ ______________$$$$$$$$__$$$$$$$___________
+*/
+
+
+
+
+
+
+
+/*IPHONE 6 PLUS LANDSCAPE*/
+
+@media screen and (min-width: 415px) and (max-width: 737px) {
+  #topBanner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBanner.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+  }
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding-top: 30px;
+  }
+  li {
+    display: inline;
+    margin: 20px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+  }
+  .logo {
+    width: 450px;
+    height: 250px;
+    background-image: url(../img/logoWhite.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -225px;
+  }
+  #firstPanel {
+    width: 100vw;
+    height: 368px;
+    background-image: url(../img/firstPanel.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
+  .bookContainer {
+    width: 100vw;
+    height: 250px;
+    background-color: #252525;
+    position: relative;
+    text-align: center;
+  }
+  .bookNow {
+    width: 400px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 2px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -200px;
+  }
+  .bookNow:hover {
+    width: 400px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 3px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -200px;
+    cursor: pointer;
+  }
+  #concretePanel {
+    width: 100vw;
+    height: 368px;
+    background-image: url(../img/concretePanel.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
+  .titleContainer {
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    top: 20px;
+  }
+  #secondPanel {
+    width: 100vw;
+    height: 368px;
+    background-image: url(../img/secondPanel.png);
+    background-size: cover;
+    z-index: 1;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    font-weight: 400;
+  }
+  .arrow {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/arrowIcon.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 145px 0 0 -20px;
+  }
+  #footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #252525;
+    position: relative;
+  }
+  .arrowUp {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowUp.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+  .servicesText {
+    width: 368px;
+    height: 368px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 -380px;
+  }
+  .contactText {
+    width: 368px;
+    height: 368px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 -380px;
+  }
+  .address {
+    text-align: left;
+    position: absolute;
+    left: 40px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .hoursText {
+    width: 368px;
+    height: 368px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 0px;
+  }
+  .socialText {
+    width: 368px;
+    height: 368px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -145px 0 0 0px;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin: 25px;
+  }
+  .icon:hover {
+    width: 41px;
+    height: 41px;
+    margin: 25px;
+    cursor: pointer;
+  }
+  .fb {
+    background-image: url(../img/1448937575_facebook_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .twitter {
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .ig {
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .youTube {
+    background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
+    background-size: cover;
+    float: left;
+  }
+  .videoContainer,
+  iframe {
+    width: 100vw;
+    height: 400px;
+  }
+  .barberOne {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/barberOne.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    left: 50px;
+  }
+  .barberOneBlur {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 64px;
+    left: 50px;
+  }
+  .barberOneBlur:hover {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-image: url(../img/barberOneBlur.png);
+    background-size: cover;
+    top: 64px;
+    left: 50px;
+  }
+  .barberTwo {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/barberTwo.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 50px;
+  }
+  .barberTwoBlur {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 64px;
+    right: 50px;
+  }
+  .barberTwoBlur:hover {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/barberTwoBlur.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 50px;
+  }
+  #instagram {
+    width: 100vw;
+    height: 620px;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 

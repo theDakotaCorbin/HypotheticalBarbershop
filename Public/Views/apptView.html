@@ -1,0 +1,54 @@
+<div class='apptViewWrapper animated fadeIn'>
+    
+    <a class='createNewLink' href='/#/createappointment'>CREATE NEW APPOINTMENT</a>
+    
+    <a class='viewAllApptsNewLink' ng-click='clearFilter()'>VIEW ALL</a>
+    
+    <div class='todayViewLink' ng-model='today.date' ng-click='todayFilter()'>TODAY</div> 
+    
+    
+    <div class='tomorrowViewLink' ng-model='today.date' ng-click='tomorrowFilter()'>TOMORROW</div> 
+    
+    
+    
+    
+    
+    
+
+
+<div class='apptsWrapper'>
+    
+    
+        <div ng-repeat="appt in appts | orderBy:'date'  | filter:today.date | filter:tomorrow.date" class='appointmentBlocks'><h3>{{appt.firstName}} {{appt.lastName}}</h3> 
+        <h5>{{appt.date | date:'longDate'}}</h5>
+            <h5>{{appt.time}}</h5>
+            <h5>{{appt.serviceType}}</h5>
+            <h5>{{appt.barber}}</h5>
+            
+        <div class='deleteBtn' ng-click='deleteAppt(appt._id)'>DELETE</div>
+        <br/>
+        <br/></div>
+        
+        
+        
+    
+    
+    
+    
+    </ul>
+    
+    
+    
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
