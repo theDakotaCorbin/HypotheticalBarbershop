@@ -24,6 +24,39 @@ angular.module('barberApp')
         })
       });
     }
+    
+    $scope.barberFilter1 = function () {
+    var day = new Date();
+
+      var month = day.getMonth() + 1;
+
+      var days = day.getDate();
+
+      var year = day.getFullYear();
+        
+        $scope.today = {barber: 'David Barber', date: year + '-' + month + '-0' + days};
+        console.log($scope.today);
+    
+    
+    
+    
+    }
+    $scope.barberFilter2 = function () {
+    var day = new Date();
+
+      var month = day.getMonth() + 1;
+
+      var days = day.getDate();
+
+      var year = day.getFullYear();
+        
+        $scope.today = {barber: 'Daniel Barber', date: year + '-' + month + '-0' + days};
+        console.log($scope.today);
+    
+    
+    
+    
+    }
 
     $scope.todayFilter = function() {
 

@@ -9,6 +9,11 @@
     
     <div class='tomorrowViewLink' ng-model='today.date' ng-click='tomorrowFilter()'>TOMORROW</div> 
     
+    <div class='davidViewLink' ng-model='today.barber' ng-click='barberFilter1()'>DAVID</div> 
+    <div class='danielViewLink' ng-model='today.barber' ng-click='barberFilter2()'>DANIEL</div>
+    
+    
+    
     
     
     
@@ -19,7 +24,7 @@
 <div class='apptsWrapper'>
     
     
-        <div ng-repeat="appt in appts | orderBy:'date'  | filter:today.date | filter:tomorrow.date" class='appointmentBlocks'><h3>{{appt.firstName}} {{appt.lastName}}</h3> 
+        <div ng-repeat="appt in appts | orderBy:'date'  | filter:today.date | filter:tomorrow.date | filter:today.barber" class='appointmentBlocks'><h3>{{appt.firstName}} {{appt.lastName}}</h3> 
         <h5>{{appt.date | date:'longDate'}}</h5>
             <h5>{{appt.time}}</h5>
             <h5>{{appt.serviceType}}</h5>

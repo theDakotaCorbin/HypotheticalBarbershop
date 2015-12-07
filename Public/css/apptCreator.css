@@ -99,13 +99,14 @@ width: 800px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -300px 0 0 -400px;
+    margin: -300px 0 0 -250px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     background-image: url(../img/metalBG.png);
     background-size: cover;
     box-shadow: 0 0 1em black;
+    border: 4px solid #492323;
 
 }
 
@@ -278,6 +279,56 @@ font-size: 40px;
 
 }
 
+.davidViewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+
+
+
+}
+.davidViewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+    cursor: pointer;
+font-size: 40px;
+
+}
+
+.danielViewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+
+
+
+}
+.danielViewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+    cursor: pointer;
+font-size: 40px;
+
+}
+
 .clearViewLink {
 color: white;
     font-family: Oswald,sans-serif;
@@ -328,6 +379,35 @@ text-shadow: 0.2em 0.2em 0.2em black;
 font-size: 40px;
 
 }
+
+
+
+   /*
+___________________________$$______________
+ _________________________$$$$_____________
+ _______________________$$$$$$_____________
+ ______________________$$$$$$______________
+ ______________________$$$$________________
+ ______________________$$__________________
+ _________$$$$$$$$$$$$$_$$$$$$$$$$$$$______
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_
+ _____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ________$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_____
+ __________$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ ____________$$$$$$$$$$$$$$$$$$$$$_________
+ ______________$$$$$$$$__$$$$$$$___________
+*/
 
 
 
