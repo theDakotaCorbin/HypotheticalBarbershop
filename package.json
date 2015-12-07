@@ -1,29 +1,25 @@
 {
-  "name": "hypotheticalbarbershop",
+  "name": "hypothetical-barbershop",
   "version": "1.0.0",
-  "description": "Appointment scheduling app",
+  "description": "A sample Node.js app using Express 4",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-    "keywords": [
-    "example",
-    "heroku"
-        ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theDakotaCorbin/HypotheticalBarbershop.git"
+  "dependencies": {
+    "express": "2.14.2"
   },
-  "author": "Dakota Corbin",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/theDakotaCorbin/HypotheticalBarbershop/issues",
-      "dependencies": {
-    "express": "^4.9.8"
-  },
-    "engines": {
+  "engines": {
     "node": "4.0.0"
   },
-  "homepage": "https://github.com/theDakotaCorbin/HypotheticalBarbershop#readme"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theDakotaCorbin/HypotheticalBarbershop"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
