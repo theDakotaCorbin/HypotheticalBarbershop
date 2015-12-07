@@ -1,3 +1,437 @@
+
+@media screen and (min-width: 1280px) {
+.pageWrapper {
+
+width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBanner.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.creatorBox {
+
+width: 275px;
+    height: 400px;
+    background-image: url(../img/metalBG.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -137.5px;
+    border: 3px solid #252525;
+    border-radius: 20px;
+    box-shadow: 0 0 1em black;
+    
+
+
+}
+
+.createHeader {
+color: #252525;
+    font-size: 20px;
+
+
+}
+
+.creatorInputs {
+width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -210px 0 0 -125px;
+    text-align: left;
+    padding: 20px;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #252525;
+    
+
+
+
+}
+
+input {
+background-color: white;
+    color: #252525;
+    border: 1px solid #252525;
+    font-family: Oswald, sans-serif;
+    padding-left: 5px;
+    font-weight: 300;
+
+}
+
+.goToAppts {
+width: 275px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 250px 0 0 -137.5px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+
+
+}
+
+.viewLink {
+color: white;
+
+}
+
+.viewLink:hover {
+text-shadow: 0.2em 0.2em 0.2em black;
+}
+
+
+
+
+
+.apptsWrapper {
+
+width: 1100px;
+    height: 800px;
+    overflow: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -400px 0 0 -250px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-image: url(../img/metalBG.png);
+    background-size: cover;
+    box-shadow: 0 0 1em black;
+    border: 4px solid #492323;
+
+}
+
+.createNewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    -webkit-font-smoothing: antialiased;
+
+
+
+}
+.createNewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+
+
+}
+
+.appointmentBlocks {
+width: 175px;
+    height: 175px;
+    background-image: url(../img/darkmetalBG.png);
+    background-size: cover;
+    padding: 5px 20px 20px 20px;
+    border: 4px solid #492323;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 20px;
+    text-align: left;
+    color: white;
+    line-height: 0.3;
+    box-shadow: 0.2em 0.2em 0.2em black;
+    position: relative;
+    left: 30px;
+    
+    
+    
+    
+
+}
+
+.searchBar {
+
+width: 200px;
+    height: 30px;
+    font-family: Oswald, sans-serif;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+
+}
+
+.apptViewWrapper {
+width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBanner.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    
+
+}
+
+.deleteBtn {
+
+color: white;
+    font-family: Oswald, sans-serif;
+    width: 50px;
+    height: 22px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 22px; 
+    float: right;
+    margin-top: -10px;
+    font-size: 15px;
+
+}
+
+.deleteBtn:hover {
+
+color: white;
+    font-family: Oswald, sans-serif;
+    width: 50px;
+    height: 22px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+    float: right;
+    margin-top: -10px;
+
+}
+
+.createBtn {
+
+color: white;
+    font-family: Oswald, sans-serif;
+    width: 50px;
+    height: 22px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 22px; 
+    font-size: 15px;
+    background-color: #252525;
+
+}
+
+.createBtn:hover {
+
+color: white;
+    font-family: Oswald, sans-serif;
+    width: 50px;
+    height: 22px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+    background-color: #252525;
+    box-shadow: 0.2em 0.2em 0.2em black;
+
+}
+
+
+.todayViewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+
+
+
+}
+.todayViewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+    cursor: pointer;
+font-size: 40px;
+
+}
+
+
+.tomorrowViewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+
+
+
+}
+.tomorrowViewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+    cursor: pointer;
+font-size: 40px;
+
+}
+
+.davidViewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+
+
+
+}
+.davidViewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+    cursor: pointer;
+font-size: 40px;
+
+}
+
+.danielViewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+
+
+
+}
+.danielViewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+    cursor: pointer;
+font-size: 40px;
+
+}
+
+.clearViewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+
+
+
+}
+.clearViewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+    cursor: pointer;
+font-size: 40px;
+
+}
+
+
+.viewAllApptsNewLink {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+
+
+
+}
+.viewAllApptsNewLink:hover {
+color: white;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    -webkit-font-smoothing: antialiased;
+text-shadow: 0.2em 0.2em 0.2em black;
+    cursor: pointer;
+font-size: 40px;
+
+}
+
+}
+
+
+
+
+
+
+
+/*
+___________________________$$______________
+ _________________________$$$$_____________
+ _______________________$$$$$$_____________
+ ______________________$$$$$$______________
+ ______________________$$$$________________
+ ______________________$$__________________
+ _________$$$$$$$$$$$$$_$$$$$$$$$$$$$______
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_
+ _____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ________$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_____
+ __________$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ ____________$$$$$$$$$$$$$$$$$$$$$_________
+ ______________$$$$$$$$__$$$$$$$___________
+*/
+
+
+/*1280 X 800*/
+
+@media screen and (max-width: 1280px) {
 .pageWrapper {
 
 width: 100vw;
@@ -149,10 +583,23 @@ width: 175px;
     color: white;
     line-height: 0.3;
     box-shadow: 0.2em 0.2em 0.2em black;
+    position: relative;
+    left: 10px;
     
     
     
     
+
+}
+
+.searchBar {
+
+width: 200px;
+    height: 30px;
+    font-family: Oswald, sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 60px;
 
 }
 
@@ -379,6 +826,7 @@ text-shadow: 0.2em 0.2em 0.2em black;
 font-size: 40px;
 
 }
+}
 
 
 
@@ -409,7 +857,7 @@ ___________________________$$______________
  ______________$$$$$$$$__$$$$$$$___________
 */
 
-
+/*IPHONE 6 PLUS*/
 
 @media screen and (max-width: 415px) {
 

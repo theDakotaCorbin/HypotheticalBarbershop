@@ -1,7 +1,9 @@
 var express = require('express');
-//var bodyParser = require('body-parser');
+var bodyParser = require('body-parser');
 var cors = require('cors');
 var passport = require('passport');
+LocalStrategy =	require('passport-local').Strategy,
+ 	port = 8080;
 var session = require('express-session');
 var mongoose = require('mongoose');
 var app = express();
@@ -13,7 +15,7 @@ var app = express();
 
 
 app.use(cors());
-//app.use(bodyParser.json());
+app.use(bodyParser.json());
 app.use(session({
    secret: 'Barber', 
    resave: false,
@@ -46,7 +48,7 @@ mongoose.connection.once('open', function() {
 
 
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 8080));
 
 app.use(express.static(__dirname + '/Public'));
 

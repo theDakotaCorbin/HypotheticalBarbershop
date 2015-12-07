@@ -2,6 +2,8 @@
     
     <a class='createNewLink' href='/#/createappointment'>CREATE NEW APPOINTMENT</a>
     
+    <input class='searchBar' type="text" placeholder="SEARCH" ng-model='searchBar'/>
+    
     <a class='viewAllApptsNewLink' ng-click='clearFilter()'>VIEW ALL</a>
     
     <div class='todayViewLink' ng-model='today.date' ng-click='todayFilter()'>TODAY</div> 
@@ -24,7 +26,7 @@
 <div class='apptsWrapper'>
     
     
-        <div ng-repeat="appt in appts | orderBy:'date'  | filter:today.date | filter:tomorrow.date | filter:today.barber" class='appointmentBlocks'><h3>{{appt.firstName}} {{appt.lastName}}</h3> 
+        <div ng-repeat="appt in appts | orderBy:'date'  | filter:today.date | filter:tomorrow.date | filter:today.barber | filter:searchBar" class='appointmentBlocks'><h3>{{appt.firstName}} {{appt.lastName}}</h3> 
         <h5>{{appt.date | date:'longDate'}}</h5>
             <h5>{{appt.time}}</h5>
             <h5>{{appt.serviceType}}</h5>

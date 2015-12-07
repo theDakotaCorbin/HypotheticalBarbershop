@@ -21,7 +21,7 @@ angular.module('barberApp', ['ui.router'])
     templateUrl: '../Views/apptView.html',
     controller: 'apptViewCtrl'
   })
-
+  
   $urlRouterProvider.otherwise('/home');
 
 })
