@@ -1,5 +1,5 @@
 var express = require('express');
-var bodyParser = require('body-parser');
+//var bodyParser = require('body-parser');
 var cors = require('cors');
 var passport = require('passport');
 var session = require('express-session');
@@ -13,7 +13,7 @@ var app = express();
 
 
 app.use(cors());
-app.use(bodyParser.json());
+//app.use(bodyParser.json());
 app.use(session({
    secret: 'Barber', 
    resave: false,
