@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "2.14.2"
+    "express": "3.5.1"
   },
   "engines": {
     "node": "4.0.0"
