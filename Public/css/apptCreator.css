@@ -1,19 +1,15 @@
-
 @media screen and (min-width: 1280px) {
-.pageWrapper {
-
-width: 100vw;
+  .pageWrapper {
+    width: 100vw;
     height: 100vh;
     background-image: url(../img/topBanner.png);
     background-size: cover;
     margin: 0 auto;
     position: relative;
     z-index: 1;
-}
-
-.creatorBox {
-
-width: 275px;
+  }
+  .creatorBox {
+    width: 275px;
     height: 400px;
     background-image: url(../img/metalBG.png);
     position: absolute;
@@ -21,22 +17,14 @@ width: 275px;
     left: 50%;
     margin: -400px 0 0 -900px;
     border: 4px solid #492323;
-    
     box-shadow: 0 0 1em black;
-    
-
-
-}
-
-.createHeader {
-color: #252525;
+  }
+  .createHeader {
+    color: #252525;
     font-size: 20px;
-
-
-}
-
-.creatorInputs {
-width: 250px;
+  }
+  .creatorInputs {
+    width: 250px;
     height: 300px;
     position: absolute;
     top: 50%;
@@ -47,24 +35,17 @@ width: 250px;
     font-family: Oswald, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #252525;
-    
-
-
-
-}
-
-input {
-background-color: white;
+  }
+  input {
+    background-color: white;
     color: #252525;
     border: 1px solid #492323;
     font-family: Oswald, sans-serif;
     padding-left: 5px;
     font-weight: 300;
-
-}
-
-.goToAppts {
-width: 275px;
+  }
+  .goToAppts {
+    width: 275px;
     height: 50px;
     position: absolute;
     top: 50%;
@@ -74,26 +55,15 @@ width: 275px;
     font-family: Oswald, sans-serif;
     text-align: center;
     -webkit-font-smoothing: antialiased;
-
-
-}
-
-.viewLink {
-color: white;
-
-}
-
-.viewLink:hover {
-text-shadow: 0.2em 0.2em 0.2em black;
-}
-
-
-
-
-
-.apptsWrapper {
-
-width: 1100px;
+  }
+  .viewLink {
+    color: white;
+  }
+  .viewLink:hover {
+    text-shadow: 0.2em 0.2em 0.2em black;
+  }
+  .apptsWrapper {
+    width: 1100px;
     height: 800px;
     overflow: auto;
     position: absolute;
@@ -107,34 +77,26 @@ width: 1100px;
     background-size: cover;
     box-shadow: 0 0 1em black;
     border: 4px solid #492323;
-
-}
-
-.createNewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .createNewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 30px;
     left: 30px;
     -webkit-font-smoothing: antialiased;
-
-
-
-}
-.createNewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .createNewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 30px;
     left: 30px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
-
-
-}
-
-.appointmentBlocks {
-width: 175px;
+    text-shadow: 0.2em 0.2em 0.2em black;
+  }
+  .appointmentBlocks {
+    width: 175px;
     height: 175px;
     background-image: url(../img/darkmetalBG.png);
     background-size: cover;
@@ -151,54 +113,38 @@ width: 175px;
     box-shadow: 0.2em 0.2em 0.2em black;
     position: relative;
     left: 30px;
-    
-    
-    
-    
-
-}
-
-.searchBar {
-
-width: 200px;
+  }
+  .searchBar {
+    width: 200px;
     height: 30px;
     font-family: Oswald, sans-serif;
     position: absolute;
     left: 400px;
     top: 100px;
-
-}
-
-.apptViewWrapper {
-width: 100vw;
+  }
+  .apptViewWrapper {
+    width: 100vw;
     height: 100vh;
     background-image: url(../img/topBanner.png);
     background-size: cover;
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    
-
-}
-
-.deleteBtn {
-
-color: white;
+  }
+  .deleteBtn {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
     border: 1px solid white;
     text-align: center;
-    line-height: 22px; 
+    line-height: 22px;
     float: right;
     margin-top: -10px;
     font-size: 15px;
-
-}
-
-.deleteBtn:hover {
-
-color: white;
+  }
+  .deleteBtn:hover {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
@@ -209,26 +155,20 @@ color: white;
     float: right;
     margin-top: -10px;
     background-color: #492323;
-
-}
-
-.createBtn {
-
-color: white;
+  }
+  .createBtn {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
     border: 1px solid white;
     text-align: center;
-    line-height: 22px; 
+    line-height: 22px;
     font-size: 15px;
     background-color: #252525;
-
-}
-
-.createBtn:hover {
-
-color: white;
+  }
+  .createBtn:hover {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
@@ -238,170 +178,128 @@ color: white;
     cursor: pointer;
     background-color: #492323;
     box-shadow: 0.2em 0.2em 0.2em black;
-
-}
-
-
-.todayViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .todayViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 300px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
-
-
-
-}
-.todayViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .todayViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 300px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 40px;
-
-}
-
-
-.tomorrowViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 40px;
+  }
+  .tomorrowViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 400px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
-
-
-
-}
-.tomorrowViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .tomorrowViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 400px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 40px;
-
-}
-
-.davidViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 40px;
+  }
+  .davidViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 600px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
-
-
-
-}
-.davidViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .davidViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 600px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 40px;
-
-}
-
-.danielViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 40px;
+  }
+  .danielViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 700px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
-
-
-
-}
-.danielViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .danielViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 700px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 40px;
-
-}
-
-.clearViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 40px;
+  }
+  .clearViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 500px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
-
-
-
-}
-.clearViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .clearViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 500px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 40px;
-
-}
-
-
-.viewAllApptsNewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 40px;
+  }
+  .viewAllApptsNewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 200px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
-
-
-
-}
-.viewAllApptsNewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .viewAllApptsNewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 200px;
     left: 420px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 40px;
-
+    font-size: 40px;
+  }
 }
-
-}
-
-
-
-
-
-
-
 /*
 ___________________________$$______________
  _________________________$$$$_____________
@@ -428,27 +326,20 @@ ___________________________$$______________
  ____________$$$$$$$$$$$$$$$$$$$$$_________
  ______________$$$$$$$$__$$$$$$$___________
 */
-
-
 /*1280 X 800*/
 
 @media screen and (max-width: 1280px) {
-.pageWrapper {
-
-width: 100vw;
+  .pageWrapper {
+    width: 100vw;
     height: 100vh;
     background-image: url(../img/topBanner.png);
     background-size: cover;
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    
-    
-}
-
-.creatorBox {
-
-width: 275px;
+  }
+  .creatorBox {
+    width: 275px;
     height: 400px;
     background-image: url(../img/metalBG.png);
     position: absolute;
@@ -457,20 +348,13 @@ width: 275px;
     margin: -300px 0 0 -600px;
     border: 4px solid #492323;
     box-shadow: 0 0 1em black;
-    
-
-
-}
-
-.createHeader {
-color: #252525;
+  }
+  .createHeader {
+    color: #252525;
     font-size: 20px;
-
-
-}
-
-.creatorInputs {
-width: 250px;
+  }
+  .creatorInputs {
+    width: 250px;
     height: 300px;
     position: absolute;
     top: 50%;
@@ -481,24 +365,17 @@ width: 250px;
     font-family: Oswald, sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #252525;
-    
-
-
-
-}
-
-input {
-background-color: white;
+  }
+  input {
+    background-color: white;
     color: #252525;
     border: 1px solid #252525;
     font-family: Oswald, sans-serif;
     padding-left: 5px;
     font-weight: 300;
-
-}
-
-.goToAppts {
-width: 275px;
+  }
+  .goToAppts {
+    width: 275px;
     height: 50px;
     position: absolute;
     top: 50%;
@@ -508,26 +385,15 @@ width: 275px;
     font-family: Oswald, sans-serif;
     text-align: center;
     -webkit-font-smoothing: antialiased;
-
-
-}
-
-.viewLink {
-color: white;
-
-}
-
-.viewLink:hover {
-text-shadow: 0.2em 0.2em 0.2em black;
-}
-
-
-
-
-
-.apptsWrapper {
-
-width: 700px;
+  }
+  .viewLink {
+    color: white;
+  }
+  .viewLink:hover {
+    text-shadow: 0.2em 0.2em 0.2em black;
+  }
+  .apptsWrapper {
+    width: 700px;
     height: 600px;
     overflow: auto;
     position: absolute;
@@ -541,34 +407,26 @@ width: 700px;
     background-size: cover;
     box-shadow: 0 0 1em black;
     border: 4px solid #492323;
-
-}
-
-.createNewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .createNewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 30px;
     left: 30px;
     -webkit-font-smoothing: antialiased;
-
-
-
-}
-.createNewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .createNewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 30px;
     left: 30px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
-
-
-}
-
-.appointmentBlocks {
-width: 175px;
+    text-shadow: 0.2em 0.2em 0.2em black;
+  }
+  .appointmentBlocks {
+    width: 175px;
     height: 175px;
     background-image: url(../img/darkmetalBG.png);
     background-size: cover;
@@ -585,54 +443,38 @@ width: 175px;
     box-shadow: 0.2em 0.2em 0.2em black;
     position: relative;
     left: 70px;
-    
-    
-    
-    
-
-}
-
-.searchBar {
-
-width: 150px;
+  }
+  .searchBar {
+    width: 150px;
     height: 30px;
     font-family: Oswald, sans-serif;
     position: absolute;
     left: 350px;
     top: 60px;
-
-}
-
-.apptViewWrapper {
-width: 100vw;
+  }
+  .apptViewWrapper {
+    width: 100vw;
     height: 100vh;
     background-image: url(../img/topBanner.png);
     background-size: cover;
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    
-
-}
-
-.deleteBtn {
-
-color: white;
+  }
+  .deleteBtn {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
     border: 1px solid white;
     text-align: center;
-    line-height: 22px; 
+    line-height: 22px;
     float: right;
     margin-top: -10px;
     font-size: 15px;
-
-}
-
-.deleteBtn:hover {
-
-color: white;
+  }
+  .deleteBtn:hover {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
@@ -642,26 +484,20 @@ color: white;
     cursor: pointer;
     float: right;
     margin-top: -10px;
-
-}
-
-.createBtn {
-
-color: white;
+  }
+  .createBtn {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
     border: 1px solid white;
     text-align: center;
-    line-height: 22px; 
+    line-height: 22px;
     font-size: 15px;
     background-color: #252525;
-
-}
-
-.createBtn:hover {
-
-color: white;
+  }
+  .createBtn:hover {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
@@ -671,166 +507,129 @@ color: white;
     cursor: pointer;
     background-color: #252525;
     box-shadow: 0.2em 0.2em 0.2em black;
-
-}
-
-
-.todayViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .todayViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 200px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
     font-size: 30px;
-
-
-
-}
-.todayViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .todayViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 200px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 30px;
-
-}
-
-
-.tomorrowViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 30px;
+  }
+  .tomorrowViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 300px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
     font-size: 30px;
-
-
-
-}
-.tomorrowViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .tomorrowViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 300px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 30px;
-
-}
-
-.davidViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 30px;
+  }
+  .davidViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 500px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
     font-size: 30px;
-
-
-
-}
-.davidViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .davidViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 500px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 30px;
-
-}
-
-.danielViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 30px;
+  }
+  .danielViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 600px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
     font-size: 30px;
-
-
-
-}
-.danielViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .danielViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 600px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 30px;
-
-}
-
-.clearViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 30px;
+  }
+  .clearViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 400px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
     font-size: 30px;
-
-
-
-}
-.clearViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .clearViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 400px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 30px;
-
-}
-
-
-.viewAllApptsNewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 30px;
+  }
+  .viewAllApptsNewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 100px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
     font-size: 30px;
-
-
-
-}
-.viewAllApptsNewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .viewAllApptsNewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 100px;
     left: 360px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 30px;
-
+    font-size: 30px;
+  }
 }
-}
-
-
-
-   /*
+/*
 ___________________________$$______________
  _________________________$$$$_____________
  _______________________$$$$$$_____________
@@ -856,14 +655,11 @@ ___________________________$$______________
  ____________$$$$$$$$$$$$$$$$$$$$$_________
  ______________$$$$$$$$__$$$$$$$___________
 */
-
 /*IPHONE 6 PLUS*/
 
 @media screen and (max-width: 415px) {
-
-.apptsWrapper {
-
-width: 400px;
+  .apptsWrapper {
+    width: 400px;
     height: 650px;
     overflow: auto;
     position: absolute;
@@ -877,13 +673,9 @@ width: 400px;
     background-size: cover;
     box-shadow: 0 0 1em black;
     justify-content: center;
-
-}
-
-
-
-.appointmentBlocks {
-width: 300px;
+  }
+  .appointmentBlocks {
+    width: 300px;
     height: 300px;
     background-image: url(../img/darkmetalBG.png);
     background-size: cover;
@@ -898,43 +690,30 @@ width: 300px;
     color: white;
     line-height: 0.3;
     box-shadow: 0.2em 0.2em 0.2em black;
-    
-    
-    
-    
-
-}
-
-.apptViewWrapper {
-width: 100vw;
+  }
+  .apptViewWrapper {
+    width: 100vw;
     height: 100vh;
     background-image: url(../img/topBannerMobile.png);
     background-size: cover;
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    
-
-}
-
-.deleteBtn {
-
-color: white;
+  }
+  .deleteBtn {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
     border: 1px solid white;
     text-align: center;
-    line-height: 22px; 
+    line-height: 22px;
     float: right;
     margin-top: -10px;
     font-size: 15px;
-
-}
-
-.deleteBtn:hover {
-
-color: white;
+  }
+  .deleteBtn:hover {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 50px;
     height: 22px;
@@ -944,26 +723,18 @@ color: white;
     cursor: pointer;
     float: right;
     margin-top: -10px;
-
-}
-    
-    
-    .pageWrapper {
-
-width: 100vw;
+  }
+  .pageWrapper {
+    width: 100vw;
     height: 100vh;
     background-image: url(../img/topBannerMobile.png);
     background-size: cover;
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    
-    
-}
-
-.creatorBox {
-
-width: 350px;
+  }
+  .creatorBox {
+    width: 350px;
     height: 500px;
     background-image: url(../img/metalBG.png);
     position: absolute;
@@ -974,20 +745,13 @@ width: 350px;
     border-radius: 20px;
     box-shadow: 0 0 1em black;
     font-size: 20px;
-    
-
-
-}
-
-.createHeader {
-color: #252525;
+  }
+  .createHeader {
+    color: #252525;
     font-size: 20px;
-
-
-}
-
-.creatorInputs {
-width: 250px;
+  }
+  .creatorInputs {
+    width: 250px;
     height: 300px;
     position: absolute;
     top: 50%;
@@ -999,14 +763,9 @@ width: 250px;
     -webkit-font-smoothing: antialiased;
     color: #252525;
     line-height: 1.3;
-    
-
-
-
-}
-
-input {
-background-color: white;
+  }
+  input {
+    background-color: white;
     color: #252525;
     border: 1px solid #252525;
     font-family: Oswald, sans-serif;
@@ -1014,11 +773,9 @@ background-color: white;
     font-weight: 300;
     font-size: 20px;
     width: 100px;
-
-}
-
-.goToAppts {
-width: 275px;
+  }
+  .goToAppts {
+    width: 275px;
     height: 50px;
     position: absolute;
     top: 50%;
@@ -1028,38 +785,28 @@ width: 275px;
     font-family: Oswald, sans-serif;
     text-align: center;
     -webkit-font-smoothing: antialiased;
-    
-
-
-}
-
-.viewLink {
-color: white;
+  }
+  .viewLink {
+    color: white;
     font-size: 25px;
-
-}
-
-.viewLink:hover {
-text-shadow: 0.2em 0.2em 0.2em black;
+  }
+  .viewLink:hover {
+    text-shadow: 0.2em 0.2em 0.2em black;
     font-size: 25px;
-}
-    .createBtn {
-
-color: white;
+  }
+  .createBtn {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 100px;
     height: 30px;
     border: 1px solid white;
     text-align: center;
-    line-height: 30px; 
+    line-height: 30px;
     font-size: 20px;
     background-color: #252525;
-
-}
-
-.createBtn:hover {
-
-color: white;
+  }
+  .createBtn:hover {
+    color: white;
     font-family: Oswald, sans-serif;
     width: 100px;
     height: 30px;
@@ -1070,91 +817,62 @@ color: white;
     background-color: #252525;
     font-size: 20px;
     box-shadow: 0.2em 0.2em 0.2em black;
-
-}
-    
-    .createNewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .createNewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 20px;
     left: 20px;
     -webkit-font-smoothing: antialiased;
-
-
-
-}
-.createNewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .createNewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 20px;
     left: 20px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
-
-
-}
-    
-    .todayViewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    text-shadow: 0.2em 0.2em 0.2em black;
+  }
+  .todayViewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 20px;
     left: 350px;
     -webkit-font-smoothing: antialiased;
-        font-size: 18px;
-
-
-
-}
-.todayViewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 18px;
+  }
+  .todayViewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 20px;
     left: 350px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 18px;
-
-}
-
-.viewAllApptsNewLink {
-color: white;
-    font-family: Oswald,sans-serif;
+    font-size: 18px;
+  }
+  .viewAllApptsNewLink {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 20px;
     left: 250px;
     -webkit-font-smoothing: antialiased;
     font-size: 18px;
-
-
-
-}
-.viewAllApptsNewLink:hover {
-color: white;
-    font-family: Oswald,sans-serif;
+  }
+  .viewAllApptsNewLink:hover {
+    color: white;
+    font-family: Oswald, sans-serif;
     position: absolute;
     top: 20px;
     left: 250px;
     -webkit-font-smoothing: antialiased;
-text-shadow: 0.2em 0.2em 0.2em black;
+    text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
-font-size: 18px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
+    font-size: 18px;
+  }
 }
