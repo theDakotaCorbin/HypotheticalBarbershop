@@ -1,6 +1,46 @@
 <div class='apptViewWrapper animated fadeIn'>
     
-    <a class='createNewLink' href='/#/createappointment'>CREATE NEW APPOINTMENT</a>
+    
+        <div class='creatorBox'>
+
+      <div class='creatorInputs'>
+          <h1 class='createHeader'>CREATE NEW APPOINTMENT</h1>
+        First Name:
+        <input type="text" placeholder="First Name" ng-model='appt.firstName'>
+        <br/>
+        <br/> Last Name:
+        <input type="text" placeholder="Last Name" ng-model='appt.lastName'>
+        <br/>
+        <br/> Date:
+        <input type="text" placeholder="Date" ng-model='appt.date'>
+          <br/>
+          <br/>
+           Time:
+        <input type="text" placeholder="Time" ng-model='appt.time'>
+        <br/>
+        <br/> Service Type:
+        <input type="text" placeholder="Service Type" ng-model='appt.serviceType'>
+        <br/>
+        <br/> Barber:
+        <input type="text" placeholder="Barber" ng-model='appt.barber'>
+      
+        <br/>
+        <br/>
+        <div class='createBtn' ng-click='newAppt(appt)'>CREATE</div>
+        <br/>
+      </div>
+        
+<!--        <div class='goToAppts'><a class='viewLink' href='/#/viewappointments'>VIEW APPOINTMENTS</a></div>-->
+        
+
+      
+
+        
+
+    
+      </div>
+    
+<!--    <a class='createNewLink' href='/#/createappointment'>CREATE NEW APPOINTMENT</a>-->
     
     <input class='searchBar' type="text" placeholder="SEARCH" ng-model='searchBar'/>
     

@@ -19,8 +19,8 @@ width: 275px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -250px 0 0 -137.5px;
-    border: 3px solid #252525;
+    margin: -400px 0 0 -900px;
+    border: 4px solid #492323;
     border-radius: 20px;
     box-shadow: 0 0 1em black;
     
@@ -56,7 +56,7 @@ width: 250px;
 input {
 background-color: white;
     color: #252525;
-    border: 1px solid #252525;
+    border: 1px solid #492323;
     font-family: Oswald, sans-serif;
     padding-left: 5px;
     font-weight: 300;
@@ -164,7 +164,7 @@ width: 200px;
     height: 30px;
     font-family: Oswald, sans-serif;
     position: absolute;
-    left: 50px;
+    left: 400px;
     top: 100px;
 
 }
@@ -208,6 +208,7 @@ color: white;
     cursor: pointer;
     float: right;
     margin-top: -10px;
+    background-color: #492323;
 
 }
 
@@ -235,7 +236,7 @@ color: white;
     text-align: center;
     line-height: 22px;
     cursor: pointer;
-    background-color: #252525;
+    background-color: #492323;
     box-shadow: 0.2em 0.2em 0.2em black;
 
 }
@@ -246,7 +247,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 300px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
 
@@ -258,7 +259,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 300px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
 text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
@@ -272,7 +273,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 400px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
 
@@ -284,7 +285,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 400px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
 text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
@@ -297,7 +298,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 600px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
 
@@ -309,7 +310,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 600px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
 text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
@@ -322,7 +323,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 700px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
 
@@ -334,7 +335,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 700px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
 text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
@@ -347,7 +348,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 500px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
 
@@ -359,7 +360,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 500px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
 text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
@@ -373,7 +374,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 200px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
 
@@ -385,7 +386,7 @@ color: white;
     font-family: Oswald,sans-serif;
     position: absolute;
     top: 200px;
-    left: 50px;
+    left: 420px;
     -webkit-font-smoothing: antialiased;
 text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;

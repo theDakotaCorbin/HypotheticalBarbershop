@@ -25,6 +25,7 @@ app.use(passport.session());
 
 //MODELS
 var Appt = require('./Models/newApptModel');
+//var Barber = require('./Models/barberModel');
 
 //CONTROLLERS
 var newApptCtrl = require('./Public/Controllers/newApptCtrl');
@@ -63,7 +64,7 @@ app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
 
-
+ 
 
 
 

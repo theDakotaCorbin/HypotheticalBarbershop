@@ -10,11 +10,7 @@ angular.module('barberApp', ['ui.router'])
     controller: 'homeCtrl'
   })
   
-  .state('createAppt', {
-    url: '/createappointment',
-    templateUrl: '../Views/apptCreatorView.html',
-    controller: 'apptCreatorCtrl'
-  })
+ 
   
   .state('viewAppts', {
     url: '/viewappointments',
