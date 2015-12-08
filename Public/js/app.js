@@ -9,6 +9,11 @@ angular.module('barberApp', ['ui.router'])
     templateUrl: '../Views/homeView.html',
     controller: 'homeCtrl'
   })
+   .state('login', {
+    url: '/login',
+    templateUrl: '../Views/loginView.html',
+    controller: 'loginViewCtrl'
+  })
   
  
   

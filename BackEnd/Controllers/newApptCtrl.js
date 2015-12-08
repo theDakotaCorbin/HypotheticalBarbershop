@@ -1,4 +1,4 @@
-var Appt = require('../../Models/newApptModel.js');
+var Appt = require('../Models/newApptModel.js');
 module.exports = {
     createNewAppt:function(req, res) {
      var newAppt = new Appt(req.body);
