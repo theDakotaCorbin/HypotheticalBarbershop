@@ -1,3 +1,9 @@
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
+
+var port = process.env.PORT || 5000;
+
+
 var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
@@ -46,7 +52,7 @@ mongoose.connection.once('open', function() {
 
 
 
-app.set('port', (process.env.PORT || 5000));
+
 
 app.use(express.static(__dirname + '/Public'));
 
@@ -118,3 +124,9 @@ app.delete('/api/delete/:id', newApptCtrl.deleteAppt);
 app.get('/login', function(req, res) {
   res.sendfile('Views/loginView.html');
 });
+
+
+
+//PORT
+
+app.listen(port);
