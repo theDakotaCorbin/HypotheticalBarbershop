@@ -43,7 +43,7 @@ var newApptCtrl = require('./BackEnd/Controllers/newApptCtrl');
 
 
 //DATABASE
-var mongoUri = "mongodb://localhost:27017/Hypothetical";
+var mongoUri = "mongodb://thedakotacorbin:Holacuate0927@ds027155.mongolab.com:27155/hypotheticalbarbershop";
 mongoose.connect(mongoUri);
 mongoose.connection.once('open', function() {
   console.log("Connected on " + mongoUri);
