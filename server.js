@@ -31,12 +31,14 @@ app.use(session({
 
 //MODELS
 var Appt = require('./BackEnd/Models/newApptModel');
+var User = require('./BackEnd/Models/userModel');
 
 
 
 
 //CONTROLLERS
 var newApptCtrl = require('./BackEnd/Controllers/newApptCtrl');
+var userBackEndCtrl = require('./BackEnd/Controllers/userBackEndCtrl');
 
 
 
@@ -72,11 +74,11 @@ app.get('/', function(request, response) {
 //ENDPOINTS
 app.post('/api/newAppt', newApptCtrl.createNewAppt);
 app.get('/api/Appts', newApptCtrl.getAppt);
-//app.post('/api/todayAppts', newApptCtrl.getApptToday);
 app.delete('/api/delete/:id', newApptCtrl.deleteAppt);
-app.get('/login', function(req, res) {
-  res.sendfile('Views/loginView.html');
-});
+app.post('/api/newUser', userBackEndCtrl.createNewUser);
+app.post('/api/Users', userBackEndCtrl.getUser);
+app.get('/api/Barbers', userBackEndCtrl.getAllBarbers);
+
 
 
 

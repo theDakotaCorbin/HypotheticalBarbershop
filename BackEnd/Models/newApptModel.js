@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var User = require('../Models/userModel.js');
 
 
 
@@ -8,8 +9,8 @@ var apptSchema = new mongoose.Schema({
     "date": Date,
     "time": String,
     "serviceType": String,
-    "barber": String
-});//BLOG SCHEMA END
+    "barber": { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
+});//APPT SCHEMA END
 
 
 

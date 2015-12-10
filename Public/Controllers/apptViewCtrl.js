@@ -5,6 +5,10 @@ angular.module('barberApp')
       $scope.appts = response.data
       console.log(response);
     })
+     mainService.getAllBarbers().then(function(response) {
+      $scope.barbers = response.data
+      console.log(response);
+    })
     $scope.newAppt = function(appt) {
       mainService.newAppt(appt).then(function(response) {
         console.log(response);
@@ -104,9 +108,20 @@ angular.module('barberApp')
     };
 
   })
+
+
+
+
+
+//SERVICE
+
+
   .service('mainService', function($http) {
     this.getAppt = function() {
       return $http.get('/api/Appts')
+    }
+    this.getAllBarbers = function() {
+      return $http.get('/api/Barbers')
     }
     this.newAppt = function(newAppt) {
       return $http.post('/api/newAppt', newAppt)

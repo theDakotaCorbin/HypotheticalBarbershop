@@ -21,6 +21,12 @@ angular.module('barberApp', ['ui.router'])
     controller: 'apptViewCtrl'
   })
 
+  .state('gallery', {
+    url: '/photogallery',
+    templateUrl: '../Views/galleryView.html',
+    controller: 'galleryCtrl'
+  })
+  
   $urlRouterProvider.otherwise('/home');
 
 })
