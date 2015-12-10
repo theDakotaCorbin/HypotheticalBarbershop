@@ -12,7 +12,8 @@ module.exports = {
   },
 
   getAppt: function(req, res) {
-    Appt.find({}, function(err, appts) {
+    Appt.find({}).populate('barber', 'name')
+.exec(function(err, appts) {
       if (err) {
         console.log(err)
         return res.status(500).send(err);

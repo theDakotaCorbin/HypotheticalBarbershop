@@ -11,16 +11,25 @@
       <input type="text" placeholder="Last Name" ng-model='appt.lastName'>
       <br/>
       <br/> Date:
-      <input type="text" placeholder="Date" ng-model='appt.date'>
+      <input type="date" placeholder="Date" ng-model='appt.date'>
       <br/>
       <br/> Time:
-      <input type="text" placeholder="Time" ng-model='appt.time'>
+      <input type="time" placeholder="Time" ng-model='appt.time'>
       <br/>
       <br/> Service Type:
-      <input type="text" placeholder="Service Type" ng-model='appt.serviceType'>
+        <select ng-model='appt.serviceType'>
+            <option>Men's Haircut</option>
+            <option>Young Gentleman's Haircut</option>
+            <option>Straight-Razor Shave</option>
+        </select>
+        
+<!--      <input type="text" placeholder="Service Type" ng-model='appt.serviceType'>-->
       <br/>
       <br/> Barber:
-      <input type="text" placeholder="Barber" ng-model='appt.barber'>
+        <select ng-model='appt.barber' ng-options='barber.name for barber in barbers'>
+            
+        </select>
+<!--      <input type="text" placeholder="Barber" ng-model='appt.barber'>-->
 
       <br/>
       <br/>
@@ -34,29 +43,30 @@
   </div>
 
   <!--    <a class='createNewLink' href='/#/createappointment'>CREATE NEW APPOINTMENT</a>-->
-
+<div class='filterBox'>
   <input class='searchBar' type="text" placeholder="SEARCH" ng-model='searchBar' />
 
-  <a class='viewAllApptsNewLink' ng-click='clearFilter()'>VIEW ALL</a>
+  <div class='viewAllApptsNewLink' ng-click='clearFilter()'>VIEW ALL</div>
 
   <div class='todayViewLink' ng-model='today.date' ng-click='todayFilter()'>TODAY</div>
 
 
   <div class='tomorrowViewLink' ng-model='today.date' ng-click='tomorrowFilter()'>TOMORROW</div>
+    <br/>
 
   <div class='davidViewLink' ng-model='today.barber' ng-click='barberFilter1()'>DAVID</div>
   <div class='danielViewLink' ng-model='today.barber' ng-click='barberFilter2()'>DANIEL</div>
-
+    </div>
 
   <div class='apptsWrapper'>
 
 
-    <div ng-repeat="appt in appts | orderBy:'date'  | filter:today.date | filter:tomorrow.date | filter:today.barber | filter:searchBar" class='appointmentBlocks'>
+    <div ng-repeat="appt in appts | orderBy:'date' | orderBy:'time' | filter:today.date | filter:tomorrow.date | filter:today.barber | filter:searchBar" class='appointmentBlocks'>
       <h3>{{appt.firstName}} {{appt.lastName}}</h3>
       <h5>{{appt.date | date:'longDate'}}</h5>
-      <h5>{{appt.time}}</h5>
+      <h5>{{appt.time | date: 'shortTime'}}</h5>
       <h5>{{appt.serviceType}}</h5>
-      <h5>{{appt.barber}}</h5>
+      <h5>{{appt.barber.name}}</h5>
 
       <div class='deleteBtn' ng-click='deleteAppt(appt._id)'>DELETE</div>
       <br/>
