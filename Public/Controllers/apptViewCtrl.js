@@ -36,7 +36,7 @@ angular.module('barberApp')
 
       $scope.today = {
         barber: 'David Barber',
-        date: year + '-' + month + '-0' + days
+        date: year + '-' + month + '-' + days
       };
       console.log($scope.today);
 
@@ -52,7 +52,7 @@ angular.module('barberApp')
 
       $scope.today = {
         barber: 'Daniel Barber',
-        date: year + '-' + month + '-0' + days
+        date: year + '-' + month + '-' + days
       };
       console.log($scope.today);
 
@@ -69,7 +69,7 @@ angular.module('barberApp')
       var year = day.getFullYear();
 
       $scope.today = {
-        date: year + '-' + month + '-0' + days
+        date: year + '-' + month + '-' + days
       };
       console.log($scope.today);
 
@@ -93,7 +93,7 @@ angular.module('barberApp')
       var year = day.getFullYear();
 
       $scope.today = {
-        date: year + '-' + month + '-0' + days
+        date: year + '-' + month + '-' + days
       };
       console.log($scope.tomorrow);
     }
