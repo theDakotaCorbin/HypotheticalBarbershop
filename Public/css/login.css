@@ -1,0 +1,90 @@
+.loginPageWrapper {
+width: 100vw;
+    height: 100vh;
+    background-image: url(../img/metalBG.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+.loginBox {
+width: 400px;
+    height: 400px;
+    background-image: url(../img/darkmetalBG.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -208px 0 0 -208px;
+    border: 8px solid #492323;
+    box-shadow: 0 0 1em black;
+    text-align: center;
+
+
+}
+
+.loginInputs {
+
+width: 380px;
+    height: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -200px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    padding: 20px;
+
+}
+
+.loginField {
+width: 200px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #492323;
+    
+
+
+}
+
+.loginHeader {
+text-align: center;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+.loginBtn {
+
+width: 350px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid white;
+    line-height: 30px;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #492323;
+    
+}
+
+.loginBtn:hover {
+
+width: 350px;
+    height: 30px;
+    text-align: center;
+    border: 3px solid white;
+    line-height: 30px;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #492323;
+    cursor: pointer;
+    
+}
+
