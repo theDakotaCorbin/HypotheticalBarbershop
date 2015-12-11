@@ -11,11 +11,12 @@
       <input type="text" placeholder="Last Name" ng-model='appt.lastName'>
       <br/>
       <br/> Date:
-      <input type="date" placeholder="Date" ng-model='appt.date'>
+      <input type="datetime-local" placeholder="Date" ng-model='appt.date'>
       <br/>
+<!--
       <br/> Time:
       <input type="time" placeholder="Time" ng-model='appt.time'>
-      <br/>
+-->
       <br/> Service Type:
         <select ng-model='appt.serviceType'>
             <option>Men's Haircut</option>
@@ -64,7 +65,7 @@
     <div ng-repeat="appt in appts | orderBy:'date' | orderBy:'time' | filter:today.date | filter:tomorrow.date | filter:today.barber | filter:searchBar" class='appointmentBlocks'>
       <h3>{{appt.firstName}} {{appt.lastName}}</h3>
       <h5>{{appt.date | date:'longDate'}}</h5>
-      <h5>{{appt.time | date: 'shortTime'}}</h5>
+      <h5>{{appt.date | date: 'shortTime'}}</h5>
       <h5>{{appt.serviceType}}</h5>
       <h5>{{appt.barber.name}}</h5>
 

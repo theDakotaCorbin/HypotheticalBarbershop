@@ -7,7 +7,6 @@ var apptSchema = new mongoose.Schema({
     "firstName": String,
     "lastName": String,
     "date": Date,
-    "time": String,
     "serviceType": String,
     "barber": { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
 });//APPT SCHEMA END

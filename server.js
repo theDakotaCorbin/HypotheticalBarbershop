@@ -45,7 +45,7 @@ var userBackEndCtrl = require('./BackEnd/Controllers/userBackEndCtrl');
 
 
 //DATABASE
-var mongoUri = "mongodb://thedakotacorbin:Holacuate0927@ds027155.mongolab.com:27155/hypotheticalbarbershop";
+var mongoUri = "mongodb://randomuser:abc123@ds027155.mongolab.com:27155/hypotheticalbarbershop";
 mongoose.connect(mongoUri);
 mongoose.connection.once('open', function() {
   console.log("Connected on " + mongoUri);
