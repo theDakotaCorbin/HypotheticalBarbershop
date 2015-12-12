@@ -1,51 +1,89 @@
 var app = angular.module('barberApp')
-app.controller('loginViewCtrl', function ($scope, authService, $location) {
+app.controller('loginViewCtrl', function($scope, authService, $location) {
 
-    $scope.signUp = function (user) {
-        if ($scope.user.password === $scope.password2) {
+  $scope.signUp = function(user) {
+    if ($scope.user.password === $scope.password2) {
 
+      authService.signUp(user).then(function(response) {
+        console.log(response);
 
-            authService.signUp(user).then(function (response) {
-                console.log(response);
-                // alert("Thanks for signing up");
-                return $location.path('/viewappointments');
-            });
-        } else {
-            alert("Oops make sure your passwords match! =]");
+        return $location.path('/viewappointments');
+      });
+    } else {
+      alert("Oops make sure your passwords match! =]");
+    }
+  };
+  $scope.logIn = function(user) {
+
+    console.log('Giving Service: ', user);
+
+    authService.logIn(user).then(function(response) {
+      console.log('response: ', response);
+
+      if (response) {
+        if (response.status === 200) {
+          return $location.path('/viewappointments');
         }
-    };
-    $scope.logIn = function (user) {
+      } else {
+        alert('Invalid Username or Password');
+      }
 
+    });
 
-            authService.logIn(user).then(function (response) {
-                console.log(response);
-                // alert("Thanks for logging in");
-                return $location.path('/viewappointments');
-            });
-        
-    };
+  };
 
 });
 
 
 
-app.service('authService', function ($http, $location) {
 
+//SERVICE
+app.service('authService', function($http, $location) {
 
+  this.forceLogin = function() {
+    return $http({
+      method: 'GET',
+      url: '/currentuser'
 
-//tried logInPage
-    this.logIn = function (user) {
-        return $http({
-            method: 'POST',
-            url: '/login',
-            data: user
-        }).then(function (res) {
-            return res;
-        }, function (err) {
-            if (err.status === 401) {
-                $location.path('/logIn');
-            }
-        })
-    }
-    
+    }).then(function(res) {
+      if (!res || res.status === 401) {
+        $location.path('/#/home');
+
+      }
+
+    }, function(err) {
+      console.log('not logged in');
+      $location.path('/#/logIn');
+
+    })
+
+  }
+
+  this.logout = function() {
+
+    return $http({
+
+      method: 'GET',
+      url: '/logout'
+
+    }).then(function() {
+      $location.path('/#/login');
+
+    })
+
+  }
+
+  this.logIn = function(user) {
+    user.username = user.userName;
+    delete user.userName;
+    console.log('The User: ', user);
+    return $http({
+      method: 'PUT',
+      url: '/login',
+      data: user
+    }).then(function(res) {
+      return res;
+    })
+  }
+
 });

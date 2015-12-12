@@ -12,7 +12,10 @@ module.exports = {
   },
 
   getUser: function(req, res) {
-    User.find({'userName':req.body.userName, 'password':req.body.password}, function(err, users) {
+    User.find({
+      'userName': req.body.userName,
+      'password': req.body.password
+    }, function(err, users) {
       if (err) {
         console.log(err)
         return res.status(500).send(err);
@@ -21,7 +24,7 @@ module.exports = {
     })
   },
 
-    getAllBarbers: function(req, res) {
+  getAllBarbers: function(req, res) {
     User.find({}, 'name', function(err, users) {
       if (err) {
         console.log(err)

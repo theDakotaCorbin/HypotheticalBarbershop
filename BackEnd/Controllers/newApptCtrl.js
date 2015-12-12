@@ -13,13 +13,13 @@ module.exports = {
 
   getAppt: function(req, res) {
     Appt.find({}).populate('barber', 'name')
-.exec(function(err, appts) {
-      if (err) {
-        console.log(err)
-        return res.status(500).send(err);
-      }
-      return res.json(appts);
-    })
+      .exec(function(err, appts) {
+        if (err) {
+          console.log(err)
+          return res.status(500).send(err);
+        }
+        return res.json(appts);
+      })
   },
 
   deleteAppt: function(req, res) {
@@ -28,16 +28,6 @@ module.exports = {
       if (err) return res.status(500).send(err);
       return res.status(200).json(result);
     });
-  },
-
-  //    getApptToday: function(req, res) {
-  //    Appt.find().where('date').equals(req.params.date).exec (function (err, appts){
-  //    if (err) {
-  //        console.log(err)
-  //        return res.status(500).send(err);
-  //    }
-  //        return res.json(appts);
-  //    })
-  //    }
+  }
 
 }

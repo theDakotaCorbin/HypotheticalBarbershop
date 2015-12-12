@@ -1,5 +1,7 @@
 <div class='apptViewWrapper animated fadeIn'>
 
+  <div class='logout' ng-click='logout()'>LOGOUT</div>
+
 
   <div class='creatorBox'>
 
@@ -13,24 +15,21 @@
       <br/> Date:
       <input type="datetime-local" placeholder="Date" ng-model='appt.date'>
       <br/>
-<!--
-      <br/> Time:
-      <input type="time" placeholder="Time" ng-model='appt.time'>
--->
+
       <br/> Service Type:
-        <select ng-model='appt.serviceType'>
-            <option>Men's Haircut</option>
-            <option>Young Gentleman's Haircut</option>
-            <option>Straight-Razor Shave</option>
-        </select>
-        
-<!--      <input type="text" placeholder="Service Type" ng-model='appt.serviceType'>-->
+      <select ng-model='appt.serviceType'>
+        <option>Men's Haircut</option>
+        <option>Young Gentleman's Haircut</option>
+        <option>Straight-Razor Shave</option>
+      </select>
+
+
       <br/>
       <br/> Barber:
-        <select ng-model='appt.barber' ng-options='barber.name for barber in barbers'>
-            
-        </select>
-<!--      <input type="text" placeholder="Barber" ng-model='appt.barber'>-->
+      <select ng-model='appt.barber' ng-options='barber.name for barber in barbers'>
+
+      </select>
+
 
       <br/>
       <br/>
@@ -38,26 +37,24 @@
       <br/>
     </div>
 
-    <!--        <div class='goToAppts'><a class='viewLink' href='/#/viewappointments'>VIEW APPOINTMENTS</a></div>-->
-
 
   </div>
 
-  <!--    <a class='createNewLink' href='/#/createappointment'>CREATE NEW APPOINTMENT</a>-->
-<div class='filterBox'>
-  <input class='searchBar' type="text" placeholder="SEARCH" ng-model='searchBar' />
 
-  <div class='viewAllApptsNewLink' ng-click='clearFilter()'>VIEW ALL</div>
+  <div class='filterBox'>
+    <input class='searchBar' type="text" placeholder="SEARCH" ng-model='searchBar' />
 
-  <div class='todayViewLink' ng-model='today.date' ng-click='todayFilter()'>TODAY</div>
+    <div class='viewAllApptsNewLink' ng-click='clearFilter()'>VIEW ALL</div>
+
+    <div class='todayViewLink' ng-model='today.date' ng-click='todayFilter()'>TODAY</div>
 
 
-  <div class='tomorrowViewLink' ng-model='today.date' ng-click='tomorrowFilter()'>TOMORROW</div>
+    <div class='tomorrowViewLink' ng-model='today.date' ng-click='tomorrowFilter()'>TOMORROW</div>
     <br/>
 
-  <div class='davidViewLink' ng-model='today.barber' ng-click='barberFilter1()'>DAVID</div>
-  <div class='danielViewLink' ng-model='today.barber' ng-click='barberFilter2()'>DANIEL</div>
-    </div>
+    <div class='davidViewLink' ng-model='today.barber' ng-click='barberFilter1()'>DAVID</div>
+    <div class='danielViewLink' ng-model='today.barber' ng-click='barberFilter2()'>DANIEL</div>
+  </div>
 
   <div class='apptsWrapper'>
 
