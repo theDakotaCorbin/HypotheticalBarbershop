@@ -53,7 +53,8 @@ app.service('authService', function($http, $location) {
 
     }, function(err) {
       console.log('not logged in');
-      $location.path('/#/logIn');
+      $location.path('/#/home');
+        alert('You are not logged in');
 
     })
 
@@ -67,7 +68,8 @@ app.service('authService', function($http, $location) {
       url: '/logout'
 
     }).then(function() {
-      $location.path('/#/login');
+      $location.path('/#/home');
+        alert('You have been successfully logged out.');
 
     })
 

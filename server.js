@@ -40,13 +40,16 @@ Passport.use(new LocalStrategy(function(username, password, done) {
       console.log('Database Error:', err);
       return done(null, false, {
         message: err
+
       });
+        alert('Invalid Username or Password');
     } else {
       if (!result) {
         console.log('Invalid Username');
         return done(null, false, {
           message: 'Invalid Username'
-        })
+        });
+        alert('Invalid Username');
       } else {
         if (result.password === password) {
           delete result.password;
@@ -57,6 +60,7 @@ Passport.use(new LocalStrategy(function(username, password, done) {
           return done(null, false, {
             message: 'Invalid Password'
           });
+            alert('Invalid Password');
         }
 
       }
