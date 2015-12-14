@@ -78,6 +78,7 @@ body::-webkit-scrollbar-thumb {
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -200px;
+      background-color: #492323;
   }
   .bookNow:hover {
     width: 400px;
@@ -92,6 +93,7 @@ body::-webkit-scrollbar-thumb {
     left: 50%;
     margin: -75px 0 0 -200px;
     cursor: pointer;
+      background-color: #492323;
   }
   #concretePanel {
     width: 100vw;
