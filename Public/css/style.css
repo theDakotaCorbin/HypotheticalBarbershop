@@ -308,6 +308,95 @@ body::-webkit-scrollbar-thumb {
     top: 64px;
     right: 300px;
   }
+    
+    .barberSocialBox1 {
+    width: 50px;
+        height: 100px;
+        
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -200px;
+    }
+    .barberSocialBox2 {
+    width: 50px;
+        height: 100px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 135px;
+    
+    }
+    
+    .barbSocial1 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial2 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+       .barbSocial3 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial4 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+     .barbSocial1:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial2:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    cursor: pointer;
+    }
+    
+       .barbSocial3:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial4:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    
   #instagram {
     width: 100vw;
     height: 300px;
@@ -489,8 +578,8 @@ ___________________________$$______________
     margin: -25px 0 0 -25px;
   }
   .servicesText {
-    width: 640px;
-    height: 640px;
+    width: 600px;
+    height: 600px;
     text-align: center;
     color: white;
     font-family: Oswald, sans-serif;
@@ -502,8 +591,8 @@ ___________________________$$______________
     margin: -200px 0 0 -650px;
   }
   .contactText {
-    width: 640px;
-    height: 640px;
+    width: 600px;
+    height: 600px;
     text-align: center;
     color: #252525;
     font-family: Oswald, sans-serif;
@@ -526,8 +615,8 @@ ___________________________$$______________
     font-size: 25px;
   }
   .hoursText {
-    width: 640px;
-    height: 640px;
+    width: 600px;
+    height: 600px;
     text-align: center;
     color: #252525;
     font-family: Oswald, sans-serif;
@@ -536,11 +625,11 @@ ___________________________$$______________
     float: left;
     top: 50%;
     left: 50%;
-    margin: -200px 0 0 30px;
+    margin: -200px 0 0 40px;
   }
   .socialText {
-    width: 640px;
-    height: 640px;
+    width: 600px;
+    height: 600px;
     text-align: center;
     color: white;
     font-family: Oswald, sans-serif;
@@ -637,6 +726,91 @@ ___________________________$$______________
     top: 64px;
     right: 100px;
   }
+     .barberSocialBox1 {
+    width: 50px;
+        height: 100px;
+        
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -90px;
+    }
+    .barberSocialBox2 {
+    width: 50px;
+        height: 100px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 35px;
+    
+    }
+    
+    .barbSocial1 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial2 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+       .barbSocial3 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial4 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+     .barbSocial1:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial2:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    cursor: pointer;
+    }
+    
+       .barbSocial3:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial4:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+        cursor: pointer;
+    
+    }
+    
   #instagram {
     width: 100vw;
     height: 300px;
@@ -974,6 +1148,92 @@ ___________________________$$______________
     left: 50%;
     margin: 30px 0 0 -170px;
   }
+    
+     .barberSocialBox1 {
+    width: 50px;
+        height: 100px;
+        
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -180px;
+    }
+    .barberSocialBox2 {
+    width: 50px;
+        height: 100px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 125px;
+    
+    }
+    
+    .barbSocial1 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial2 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+       .barbSocial3 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial4 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+     .barbSocial1:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial2:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    cursor: pointer;
+    }
+    
+       .barbSocial3:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial4:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+        cursor: pointer;
+    
+    }
+    
   #instagram {
     width: 100vw;
     height: 900px;
@@ -1299,6 +1559,91 @@ ___________________________$$______________
     top: 64px;
     right: 50px;
   }
+     .barberSocialBox1 {
+    width: 50px;
+        height: 100px;
+        
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -70px;
+    }
+    .barberSocialBox2 {
+    width: 50px;
+        height: 100px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 20px;
+    
+    }
+    
+    .barbSocial1 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial2 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+       .barbSocial3 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial4 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+     .barbSocial1:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial2:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    cursor: pointer;
+    }
+    
+       .barbSocial3:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial4:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+        cursor: pointer;
+    
+    }
+    
   #instagram {
     width: 100vw;
     height: 620px;
@@ -1306,3 +1651,839 @@ ___________________________$$______________
     text-align: center;
   }
 }
+
+
+/*
+___________________________$$______________
+ _________________________$$$$_____________
+ _______________________$$$$$$_____________
+ ______________________$$$$$$______________
+ ______________________$$$$________________
+ ______________________$$__________________
+ _________$$$$$$$$$$$$$_$$$$$$$$$$$$$______
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_
+ _____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ________$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_____
+ __________$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ ____________$$$$$$$$$$$$$$$$$$$$$_________
+ ______________$$$$$$$$__$$$$$$$___________
+*/
+
+
+/*IPHONE 6 PORTRAIT*/
+
+@media screen and (max-width: 375px) {
+  #topBanner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBannerMobile.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+  }
+  ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: absolute;
+    left: -10px;
+  }
+  li {
+    display: inline;
+    margin: 5px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 25px;
+  }
+  .logo {
+    width: 340px;
+    height: 200px;
+    background-image: url(../img/logoWhite.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -170px;
+  }
+  #firstPanel {
+    width: 100vw;
+    height: 828px;
+    background-image: url(../img/firstPanelMobile.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
+  .bookContainer {
+    width: 100vw;
+    height: 250px;
+    background-color: #252525;
+    position: relative;
+    text-align: center;
+  }
+  .bookNow {
+    width: 350px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 2px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -178px;
+  }
+  .bookNow:hover {
+    width: 400px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 3px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -200px;
+    cursor: pointer;
+  }
+  #concretePanel {
+    width: 100vw;
+    height: 828px;
+    background-image: url(../img/concretePanelMobile.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
+  .titleContainer {
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    top: 10px;
+  }
+  #secondPanel {
+    width: 100vw;
+    height: 828px;
+    background-image: url(../img/secondPanelMobile.png);
+    background-size: cover;
+    z-index: 1;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    font-weight: 400;
+  }
+  .arrow {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowIcon.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 250px 0 0 -25px;
+  }
+  #footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #252525;
+    position: relative;
+  }
+  .adminLoginLink {
+    font-family: Oswald, sans-serif;
+    position: absolute;
+    line-height: 150px;
+    right: 50px;
+  }
+  .arrowUp {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowUp.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+  .servicesText {
+    width: 350px;
+    height: 340px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -400px 0 0 -175px;
+  }
+  .contactText {
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -400px 0 0 -170px;
+  }
+  .address {
+    text-align: left;
+    position: absolute;
+    left: 0px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .hoursText {
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 20px 0 0 -170px;
+  }
+  .socialText {
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: 70px 0 0 -170px;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+  }
+  .icon:hover {
+    width: 51px;
+    height: 51px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .fb {
+    background-image: url(../img/1448937575_facebook_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .twitter {
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .ig {
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .youTube {
+    background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
+    background-size: cover;
+    float: left;
+  }
+  .videoContainer,
+  iframe {
+    width: 100vw;
+    height: 300px;
+  }
+  .barberOne {
+    width: 340px;
+    height: 340px;
+    background-image: url(../img/barberOne.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -170px;
+  }
+  .barberOneBlur {
+    width: 340px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -170px;
+  }
+  .barberOneBlur:hover {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    background-image: url(../img/barberOneBlur.png);
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -170px;
+  }
+  .barberTwo {
+    width: 340px;
+    height: 340px;
+    background-image: url(../img/barberTwo.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 30px 0 0 -170px;
+  }
+  .barberTwoBlur {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 30px 0 0 -170px;
+  }
+  .barberTwoBlur:hover {
+    width: 340px;
+    height: 340px;
+    background-image: url(../img/barberTwoBlur.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 30px 0 0 -170px;
+  }
+    
+     .barberSocialBox1 {
+    width: 50px;
+        height: 100px;
+        
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -180px;
+    }
+    .barberSocialBox2 {
+    width: 50px;
+        height: 100px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 125px;
+    
+    }
+    
+    .barbSocial1 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial2 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+       .barbSocial3 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial4 {
+    width: 50px;
+        height: 50px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+     .barbSocial1:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial2:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    cursor: pointer;
+    }
+    
+       .barbSocial3:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial4:hover {
+    width: 51px;
+        height: 51px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+        cursor: pointer;
+    
+    }
+    
+  #instagram {
+    width: 100vw;
+    height: 900px;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+
+/*
+___________________________$$______________
+ _________________________$$$$_____________
+ _______________________$$$$$$_____________
+ ______________________$$$$$$______________
+ ______________________$$$$________________
+ ______________________$$__________________
+ _________$$$$$$$$$$$$$_$$$$$$$$$$$$$______
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$________
+ _$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$______
+ ___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$____
+ ____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_
+ _____$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$__
+ ______$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___
+ ________$$$$$$$$$$$$$$$$$$$$$$$$$$$$$_____
+ __________$$$$$$$$$$$$$$$$$$$$$$$$$_______
+ ____________$$$$$$$$$$$$$$$$$$$$$_________
+ ______________$$$$$$$$__$$$$$$$___________
+*/
+
+
+/*IPHONE 6 LANDSCAPE*/
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  #topBanner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/topBanner.png);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+  }
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding-top: 30px;
+  }
+  li {
+    display: inline;
+    margin: 20px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+  }
+  .logo {
+    width: 350px;
+    height: 200px;
+    background-image: url(../img/logoWhite.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -175px;
+  }
+  #firstPanel {
+    width: 100vw;
+    height: 333.5px;
+    background-image: url(../img/firstPanel.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
+  .bookContainer {
+    width: 100vw;
+    height: 250px;
+    background-color: #252525;
+    position: relative;
+    text-align: center;
+  }
+  .bookNow {
+    width: 400px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 2px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -200px;
+  }
+  .bookNow:hover {
+    width: 400px;
+    height: 65px;
+    color: white;
+    font-family: Oswald, sans-serif;
+    border: 3px solid white;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -75px 0 0 -200px;
+    cursor: pointer;
+  }
+  #concretePanel {
+    width: 100vw;
+    height: 333.5px;
+    background-image: url(../img/concretePanel.png);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+  }
+  .titleContainer {
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    float: left;
+    z-index: 2;
+    top: 20px;
+  }
+  #secondPanel {
+    width: 100vw;
+    height: 333.5px;
+    background-image: url(../img/secondPanel.png);
+    background-size: cover;
+    z-index: 1;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    font-weight: 400;
+  }
+  .arrow {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/arrowIcon.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 125px 0 0 -20px;
+  }
+  #footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #252525;
+    position: relative;
+  }
+  .arrowUp {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/arrowUp.png);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+  .servicesText {
+    width: 320px;
+    height: 368px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 -340px;
+  }
+  .contactText {
+   width: 320px;
+    height: 368px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 -320px;
+  }
+  .address {
+    text-align: left;
+    position: absolute;
+    left: 40px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .hoursText {
+    width: 320px;
+    height: 368px;
+    text-align: center;
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 10px;
+  }
+  .socialText {
+   width: 320px;
+    height: 320px;
+    text-align: center;
+    color: white;
+    font-family: Oswald, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 10px;
+  }
+  }
+  .icon {
+    width: 35px;
+    height: 35px;
+    margin: 20px;
+  }
+  .icon:hover {
+    width: 36px;
+    height: 36px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .fb {
+    background-image: url(../img/1448937575_facebook_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .twitter {
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .ig {
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    float: left;
+  }
+  .youTube {
+    background-image: url(../img/1448937619_youtube_online_social_media_you_tube.png);
+    background-size: cover;
+    float: left;
+  }
+  .videoContainer,
+  iframe {
+    width: 100vw;
+    height: 400px;
+  }
+  .barberOne {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/barberOne.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    left: 30px;
+  }
+  .barberOneBlur {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 64px;
+    left: 30px;
+  }
+  .barberOneBlur:hover {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-image: url(../img/barberOneBlur.png);
+    background-size: cover;
+    top: 64px;
+    left: 30px;
+  }
+  .barberTwo {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/barberTwo.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 30px;
+  }
+  .barberTwoBlur {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 64px;
+    right: 30px;
+  }
+  .barberTwoBlur:hover {
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/barberTwoBlur.png);
+    background-size: cover;
+    position: absolute;
+    top: 64px;
+    right: 30px;
+  }
+     .barberSocialBox1 {
+    width: 30px;
+        height: 100px;
+        
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -55px;
+    }
+    .barberSocialBox2 {
+    width: 30px;
+        height: 100px;
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 25px;
+    
+    }
+    
+    .barbSocial1 {
+    width: 30px;
+        height: 30px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial2 {
+    width: 30px;
+        height: 30px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+       .barbSocial3 {
+    width: 30px;
+        height: 30px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    
+    }
+    .barbSocial4 {
+    width: 30px;
+        height: 30px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    
+    }
+    
+     .barbSocial1:hover {
+    width: 31px;
+        height: 31px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial2:hover {
+    width: 31px;
+        height: 31px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+    cursor: pointer;
+    }
+    
+       .barbSocial3:hover {
+    width: 31px;
+        height: 31px;
+        background-image: url(../img/1448937612_twitter_online_social_media.png);
+        background-size: cover;
+        margin-bottom: 15px;
+    cursor: pointer;
+    }
+    .barbSocial4:hover {
+    width: 31px;
+        height: 31px;
+        background-image: url(../img/1448937604_instagram_online_social_media.png);
+        background-size: cover;
+        cursor: pointer;
+    
+    }
+    
+  #instagram {
+    width: 100vw;
+    height: 620px;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+
