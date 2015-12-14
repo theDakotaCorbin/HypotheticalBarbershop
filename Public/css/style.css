@@ -2108,7 +2108,7 @@ ___________________________$$______________
 
 /*IPHONE 6 LANDSCAPE*/
 
-@media screen and (min-width: 375px) and (max-width: 667px) {
+@media screen and (min-width: 376px) and (max-width: 667px) {
   #topBanner {
     width: 100vw;
     height: 100vh;
