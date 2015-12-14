@@ -174,21 +174,41 @@
     text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
   }
+    .todayViewLink:active {
+    text-shadow: 0.2em 0.2em 0.2em black;
+    color: #492323;
+  }
   .tomorrowViewLink:hover {
     text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
+  }
+    .tomorrowViewLink:active {
+    text-shadow: 0.2em 0.2em 0.2em black;
+    color: #492323;
   }
   .davidViewLink:hover {
     text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
   }
+    .davidViewLink:active {
+    text-shadow: 0.2em 0.2em 0.2em black;
+    color: #492323;
+  }
   .danielViewLink:hover {
     text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
   }
+    .danielViewLink:active {
+    text-shadow: 0.2em 0.2em 0.2em black;
+    color: #492323;
+  }
   .viewAllApptsNewLink:hover {
     text-shadow: 0.2em 0.2em 0.2em black;
     cursor: pointer;
+  }
+    .viewAllApptsNewLink:active {
+    text-shadow: 0.2em 0.2em 0.2em black;
+    color: #492323;
   }
   .searchBar {
     width: 200px;
