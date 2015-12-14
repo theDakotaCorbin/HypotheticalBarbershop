@@ -852,7 +852,7 @@ ___________________________$$______________
 
 /*IPHONE 6 PLUS PORTRAIT*/
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 376px) and (max-width: 414px) {
   #topBanner {
     width: 100vw;
     height: 100vh;
@@ -1275,7 +1275,7 @@ ___________________________$$______________
 
 /*IPHONE 6 PLUS LANDSCAPE*/
 
-@media screen and (min-width: 415px) and (max-width: 737px) {
+@media screen and (min-width: 668px) and (max-width: 737px) {
   #topBanner {
     width: 100vw;
     height: 100vh;
@@ -2108,7 +2108,7 @@ ___________________________$$______________
 
 /*IPHONE 6 LANDSCAPE*/
 
-@media screen and (min-width: 376px) and (max-width: 667px) {
+@media screen and (min-width: 415px) and (max-width: 667px) {
   #topBanner {
     width: 100vw;
     height: 100vh;
