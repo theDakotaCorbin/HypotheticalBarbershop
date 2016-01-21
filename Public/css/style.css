@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb {
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -200px;
-      background-color: #492323;
+    background-color: #492323;
   }
   .bookNow:hover {
     width: 400px;
@@ -93,7 +93,7 @@ body::-webkit-scrollbar-thumb {
     left: 50%;
     margin: -75px 0 0 -200px;
     cursor: pointer;
-      background-color: #492323;
+    background-color: #492323;
   }
   #concretePanel {
     width: 100vw;
@@ -310,95 +310,78 @@ body::-webkit-scrollbar-thumb {
     top: 64px;
     right: 300px;
   }
-    
-    .barberSocialBox1 {
+  .barberSocialBox1 {
     width: 50px;
-        height: 100px;
-        
+    height: 100px;
     position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 -200px;
-    }
-    .barberSocialBox2 {
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -200px;
+  }
+  .barberSocialBox2 {
     width: 50px;
-        height: 100px;
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 135px;
-    
-    }
-    
-    .barbSocial1 {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 135px;
+  }
+  .barbSocial1 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial2 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial2 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-       .barbSocial3 {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial3 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial4 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial4 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-     .barbSocial1:hover {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial1:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial2:hover {
+  }
+  .barbSocial2:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
     cursor: pointer;
-    }
-    
-       .barbSocial3:hover {
+  }
+  .barbSocial3:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial4:hover {
+  }
+  .barbSocial4:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-        cursor: pointer;
-    
-    }
-    
-    
-    
-    
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    cursor: pointer;
+  }
   #instagram {
     width: 100vw;
     height: 300px;
@@ -498,7 +481,7 @@ ___________________________$$______________
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -200px;
-      background-color: #492323;
+    background-color: #492323;
   }
   .bookNow:hover {
     width: 400px;
@@ -513,7 +496,7 @@ ___________________________$$______________
     left: 50%;
     margin: -75px 0 0 -200px;
     cursor: pointer;
-      background-color: #492323;
+    background-color: #492323;
   }
   #concretePanel {
     width: 100vw;
@@ -730,91 +713,78 @@ ___________________________$$______________
     top: 64px;
     right: 100px;
   }
-     .barberSocialBox1 {
+  .barberSocialBox1 {
     width: 50px;
-        height: 100px;
-        
+    height: 100px;
     position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 -90px;
-    }
-    .barberSocialBox2 {
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -90px;
+  }
+  .barberSocialBox2 {
     width: 50px;
-        height: 100px;
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 35px;
-    
-    }
-    
-    .barbSocial1 {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 35px;
+  }
+  .barbSocial1 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial2 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial2 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-       .barbSocial3 {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial3 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial4 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial4 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-     .barbSocial1:hover {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial1:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial2:hover {
+  }
+  .barbSocial2:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
     cursor: pointer;
-    }
-    
-       .barbSocial3:hover {
+  }
+  .barbSocial3:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial4:hover {
+  }
+  .barbSocial4:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-        cursor: pointer;
-    
-    }
-    
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    cursor: pointer;
+  }
   #instagram {
     width: 100vw;
     height: 300px;
@@ -919,7 +889,7 @@ ___________________________$$______________
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -202px;
-      background-color: #492323;
+    background-color: #492323;
   }
   .bookNow:hover {
     width: 400px;
@@ -934,7 +904,7 @@ ___________________________$$______________
     left: 50%;
     margin: -75px 0 0 -200px;
     cursor: pointer;
-      background-color: #492323;
+    background-color: #492323;
   }
   #concretePanel {
     width: 100vw;
@@ -1154,92 +1124,78 @@ ___________________________$$______________
     left: 50%;
     margin: 30px 0 0 -170px;
   }
-    
-     .barberSocialBox1 {
+  .barberSocialBox1 {
     width: 50px;
-        height: 100px;
-        
+    height: 100px;
     position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 -180px;
-    }
-    .barberSocialBox2 {
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -180px;
+  }
+  .barberSocialBox2 {
     width: 50px;
-        height: 100px;
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 125px;
-    
-    }
-    
-    .barbSocial1 {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 125px;
+  }
+  .barbSocial1 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial2 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial2 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-       .barbSocial3 {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial3 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial4 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial4 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-     .barbSocial1:hover {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial1:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial2:hover {
+  }
+  .barbSocial2:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
     cursor: pointer;
-    }
-    
-       .barbSocial3:hover {
+  }
+  .barbSocial3:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial4:hover {
+  }
+  .barbSocial4:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-        cursor: pointer;
-    
-    }
-    
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    cursor: pointer;
+  }
   #instagram {
     width: 100vw;
     height: 900px;
@@ -1341,7 +1297,7 @@ ___________________________$$______________
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -200px;
-      background-color: #492323;
+    background-color: #492323;
   }
   .bookNow:hover {
     width: 400px;
@@ -1356,7 +1312,7 @@ ___________________________$$______________
     left: 50%;
     margin: -75px 0 0 -200px;
     cursor: pointer;
-      background-color: #492323;
+    background-color: #492323;
   }
   #concretePanel {
     width: 100vw;
@@ -1567,91 +1523,78 @@ ___________________________$$______________
     top: 64px;
     right: 50px;
   }
-     .barberSocialBox1 {
+  .barberSocialBox1 {
     width: 50px;
-        height: 100px;
-        
+    height: 100px;
     position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 -70px;
-    }
-    .barberSocialBox2 {
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -70px;
+  }
+  .barberSocialBox2 {
     width: 50px;
-        height: 100px;
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 20px;
-    
-    }
-    
-    .barbSocial1 {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 20px;
+  }
+  .barbSocial1 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial2 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial2 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-       .barbSocial3 {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial3 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial4 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial4 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-     .barbSocial1:hover {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial1:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial2:hover {
+  }
+  .barbSocial2:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
     cursor: pointer;
-    }
-    
-       .barbSocial3:hover {
+  }
+  .barbSocial3:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial4:hover {
+  }
+  .barbSocial4:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-        cursor: pointer;
-    
-    }
-    
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    cursor: pointer;
+  }
   #instagram {
     width: 100vw;
     height: 620px;
@@ -1756,7 +1699,7 @@ ___________________________$$______________
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -178px;
-      background-color: #492323;
+    background-color: #492323;
   }
   .bookNow:hover {
     width: 400px;
@@ -1771,7 +1714,7 @@ ___________________________$$______________
     left: 50%;
     margin: -75px 0 0 -200px;
     cursor: pointer;
-      background-color: #492323;
+    background-color: #492323;
   }
   #concretePanel {
     width: 100vw;
@@ -1991,92 +1934,78 @@ ___________________________$$______________
     left: 50%;
     margin: 30px 0 0 -170px;
   }
-    
-     .barberSocialBox1 {
+  .barberSocialBox1 {
     width: 50px;
-        height: 100px;
-        
+    height: 100px;
     position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 -180px;
-    }
-    .barberSocialBox2 {
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -180px;
+  }
+  .barberSocialBox2 {
     width: 50px;
-        height: 100px;
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 125px;
-    
-    }
-    
-    .barbSocial1 {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 125px;
+  }
+  .barbSocial1 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial2 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial2 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-       .barbSocial3 {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial3 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial4 {
+    height: 50px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial4 {
     width: 50px;
-        height: 50px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-     .barbSocial1:hover {
+    height: 50px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial1:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial2:hover {
+  }
+  .barbSocial2:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
     cursor: pointer;
-    }
-    
-       .barbSocial3:hover {
+  }
+  .barbSocial3:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 51px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial4:hover {
+  }
+  .barbSocial4:hover {
     width: 51px;
-        height: 51px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-        cursor: pointer;
-    
-    }
-    
+    height: 51px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    cursor: pointer;
+  }
   #instagram {
     width: 100vw;
     height: 900px;
@@ -2178,7 +2107,7 @@ ___________________________$$______________
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -200px;
-      background-color: #492323;
+    background-color: #492323;
   }
   .bookNow:hover {
     width: 400px;
@@ -2193,7 +2122,7 @@ ___________________________$$______________
     left: 50%;
     margin: -75px 0 0 -200px;
     cursor: pointer;
-      background-color: #492323;
+    background-color: #492323;
   }
   #concretePanel {
     width: 100vw;
@@ -2269,7 +2198,7 @@ ___________________________$$______________
     margin: -165px 0 0 -340px;
   }
   .contactText {
-   width: 320px;
+    width: 320px;
     height: 368px;
     text-align: center;
     color: #252525;
@@ -2306,7 +2235,7 @@ ___________________________$$______________
     margin: -165px 0 0 10px;
   }
   .socialText {
-   width: 320px;
+    width: 320px;
     height: 320px;
     text-align: center;
     color: white;
@@ -2318,7 +2247,6 @@ ___________________________$$______________
     left: 50%;
     margin: -165px 0 0 10px;
   }
-  
   .icon {
     width: 35px;
     height: 35px;
@@ -2405,91 +2333,78 @@ ___________________________$$______________
     top: 64px;
     right: 30px;
   }
-     .barberSocialBox1 {
+  .barberSocialBox1 {
     width: 30px;
-        height: 100px;
-        
+    height: 100px;
     position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 -55px;
-    }
-    .barberSocialBox2 {
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -55px;
+  }
+  .barberSocialBox2 {
     width: 30px;
-        height: 100px;
-        
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -25px 0 0 25px;
-    
-    }
-    
-    .barbSocial1 {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 25px;
+  }
+  .barbSocial1 {
     width: 30px;
-        height: 30px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial2 {
+    height: 30px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial2 {
     width: 30px;
-        height: 30px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-       .barbSocial3 {
+    height: 30px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial3 {
     width: 30px;
-        height: 30px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
-    
-    }
-    .barbSocial4 {
+    height: 30px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
+  }
+  .barbSocial4 {
     width: 30px;
-        height: 30px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-    
-    }
-    
-     .barbSocial1:hover {
+    height: 30px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+  }
+  .barbSocial1:hover {
     width: 31px;
-        height: 31px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 31px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial2:hover {
+  }
+  .barbSocial2:hover {
     width: 31px;
-        height: 31px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
+    height: 31px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
     cursor: pointer;
-    }
-    
-       .barbSocial3:hover {
+  }
+  .barbSocial3:hover {
     width: 31px;
-        height: 31px;
-        background-image: url(../img/1448937612_twitter_online_social_media.png);
-        background-size: cover;
-        margin-bottom: 15px;
+    height: 31px;
+    background-image: url(../img/1448937612_twitter_online_social_media.png);
+    background-size: cover;
+    margin-bottom: 15px;
     cursor: pointer;
-    }
-    .barbSocial4:hover {
+  }
+  .barbSocial4:hover {
     width: 31px;
-        height: 31px;
-        background-image: url(../img/1448937604_instagram_online_social_media.png);
-        background-size: cover;
-        cursor: pointer;
-    
-    }
-    
+    height: 31px;
+    background-image: url(../img/1448937604_instagram_online_social_media.png);
+    background-size: cover;
+    cursor: pointer;
+  }
   #instagram {
     width: 100vw;
     height: 620px;
@@ -2497,5 +2412,3 @@ ___________________________$$______________
     text-align: center;
   }
 }
-
-

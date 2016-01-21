@@ -37,6 +37,7 @@ app.controller('loginViewCtrl', function($scope, authService, $location) {
 
 
 
+
 //SERVICE
 app.service('authService', function($http, $location) {
 
@@ -54,7 +55,7 @@ app.service('authService', function($http, $location) {
     }, function(err) {
       console.log('not logged in');
       $location.path('/#/home');
-        alert('You are not logged in');
+      alert('You are not logged in');
 
     })
 
@@ -69,7 +70,7 @@ app.service('authService', function($http, $location) {
 
     }).then(function() {
       $location.path('/#/home');
-        alert('You have been successfully logged out.');
+      alert('You have been successfully logged out.');
 
     })
 

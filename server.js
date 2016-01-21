@@ -18,6 +18,7 @@ var app = express();
 
 
 
+
 //MIDDLEWARE
 app.use(cors());
 app.use(bodyParser.json());
@@ -42,7 +43,7 @@ Passport.use(new LocalStrategy(function(username, password, done) {
         message: err
 
       });
-        alert('Invalid Username or Password');
+      alert('Invalid Username or Password');
     } else {
       if (!result) {
         console.log('Invalid Username');
@@ -60,7 +61,7 @@ Passport.use(new LocalStrategy(function(username, password, done) {
           return done(null, false, {
             message: 'Invalid Password'
           });
-            alert('Invalid Password');
+          alert('Invalid Password');
         }
 
       }
@@ -136,6 +137,9 @@ mongoose.connection.once('open', function() {
 });
 
 app.use(express.static(__dirname + '/Public'));
+
+
+
 
 // views is directory for all template files
 
